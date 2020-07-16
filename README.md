@@ -1,6 +1,7 @@
 # Dogma Manual
 
 [![Project license](https://img.shields.io/badge/license-Public%20Domain-blue.svg)](https://unlicense.org)
+[![Linter](https://github.com/dogmatists/dogma.dev/workflows/Linter/badge.svg)](https://github.com/dogmatists/dogma.dev/actions?query=workflow%3ALinter)
 
 ## Prerequisites
 
