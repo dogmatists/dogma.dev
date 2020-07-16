@@ -1,0 +1,1 @@
+# Angle class

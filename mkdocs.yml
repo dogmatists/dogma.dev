@@ -27,6 +27,15 @@ plugins:
 # Table of contents (TOC):
 nav:
   - Introduction: index.md
+  - Getting Started: start.md
+  - Concepts: concepts.md
+  - Tutorials: learn.md
+  - FAQs: faq.md
+  - Release Notes: history.md
+  - Glossary: glossary.md
+  - License: license.md
+  - Reference:
+    - Angle: Angle/index.md
 
 # Mermaid plugin configuration:
 extra_javascript:
