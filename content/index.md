@@ -1,24 +1,18 @@
 # Dogma
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus
-nisl eget urna tempus tincidunt. Vivamus porta interdum elit, dictum
-bibendum odio. Aliquam rutrum dapibus est, eget facilisis ligula congue
-vitae. Nulla egestas magna urna, vitae vestibulum metus interdum sit amet.
-Nulla facilisis urna imperdiet eros suscipit, id pharetra augue pulvinar.
-Pellentesque vitae libero quis erat convallis hendrerit non eget sapien.
-Phasellus eu sollicitudin leo.
+!!! warning "Here be dragons"
 
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas
-iaculis dapibus felis, in varius urna mollis quis. Donec luctus tellus eget
-augue vulputate, id pellentesque nisi eleifend. Duis pretium augue sed
-tempor egestas. Donec dignissim neque turpis, ac sagittis neque fermentum
-vel. Duis cursus commodo ligula id finibus. Nullam ut ultrices neque. Fusce
-lobortis auctor diam, vitae ultricies dolor bibendum eget.
+    This is a semi-public, pre-alpha, work-in-progress project.
+    
+    **Caveat utilitor:**
+    Assume nothing works, and you may be pleasantly surprised;
+    and when it breaks, you get to keep both pieces.
 
-Quisque id sem sagittis, faucibus odio sit amet, dignissim enim. Duis tortor
-sem, malesuada eu cursus nec, ullamcorper non mi. Morbi sagittis risus sed
-ligula consectetur, eget vulputate justo gravida. Vivamus ultrices, nunc ut
-mattis ultrices, enim elit elementum orci, id blandit turpis lorem dictum
-turpis. Donec sed tincidunt ligula. Nam tincidunt eros non quam rutrum, at
-feugiat ipsum maximus. Sed scelerisque magna felis, et lobortis massa
-viverra non.
+**This project is presently at an early design and proof-of-concept stage.**
+It is unlikely to be particularly useful as yet to anyone but its authors.
+
+If you are interested in the project, you can keep tabs on development [at
+GitHub][] and follow the author [on Twitter][] for project announcements.
+
+[at GitHub]:  https://github.com/artob
+[on Twitter]: https://twitter.com/bendiken

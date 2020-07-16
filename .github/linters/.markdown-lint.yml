@@ -19,6 +19,6 @@ MD044:        # proper-names
     - JavaScript
   code_blocks: false
 MD046:        # code-block-style
-  style: fenced
+  style: consistent
 MD048:        # code-fence-style
   style: backtick
