@@ -9,3 +9,6 @@
 
 # Pandoc outputs
 *.html
+
+# MkDocs build output
+public/
