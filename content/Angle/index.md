@@ -2,14 +2,14 @@
 
 ## Summary
 
-Language        | Symbol
-:---------------| --------------------------------------------------------------
-[C][]           | `Angle`
-[C++][]         | `dogma::Angle`
-[Dart][]        | `Angle`
-[Python][]      | `dogma.Angle`
-[Ruby][]        | `Dogma::Angle`
-[Zig][]         | `dogma.Angle`
+Language        | Type      | Symbol
+:---------------| :-------- | :-------------------------------------------------
+[C][]           | struct    | `Angle`
+[C++][]         | class     | `dogma::Angle`
+[Dart][]        | class     | `Angle`
+[Python][]      | class     | `dogma.Angle`
+[Ruby][]        | class     | `Dogma::Angle`
+[Zig][]         | struct    | `dogma.Angle`
 
 [C]:      https://github.com/dogmatists/dogma.c/blob/master/dogma.h
 [C++]:    https://github.com/dogmatists/dogma.cpp/blob/master/dogma.hpp
