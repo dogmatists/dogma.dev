@@ -7,7 +7,7 @@ Language        | Type      | Symbol
 [C][]           | struct    | `Longitude`
 [C++][]         | struct    | `dogma::Longitude`
 [Dart][]        | class     | `Longitude`
-[Protobuf][]    | message   | `Dogma.Longitude`
+[Protobuf][]    | message   | `dogma.Longitude`
 [Python][]      | class     | `dogma.Longitude`
 [Ruby][]        | class     | `Dogma::Longitude`
 [Zig][]         | struct    | `dogma.Longitude`

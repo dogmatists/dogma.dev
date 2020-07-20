@@ -7,7 +7,7 @@ Language        | Type      | Symbol
 [C][]           | struct    | `Latitude`
 [C++][]         | struct    | `dogma::Latitude`
 [Dart][]        | class     | `Latitude`
-[Protobuf][]    | message   | `Dogma.Latitude`
+[Protobuf][]    | message   | `dogma.Latitude`
 [Python][]      | class     | `dogma.Latitude`
 [Ruby][]        | class     | `Dogma::Latitude`
 [Zig][]         | struct    | `dogma.Latitude`

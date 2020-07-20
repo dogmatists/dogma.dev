@@ -7,7 +7,7 @@ Language        | Type      | Symbol
 [C][]           | struct    | `Angle`
 [C++][]         | struct    | `dogma::Angle`
 [Dart][]        | class     | `Angle`
-[Protobuf][]    | message   | `Dogma.Angle`
+[Protobuf][]    | message   | `dogma.Angle`
 [Python][]      | class     | `dogma.Angle`
 [Ruby][]        | class     | `Dogma::Angle`
 [Zig][]         | struct    | `dogma.Angle`
