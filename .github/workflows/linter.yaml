@@ -1,3 +1,4 @@
+# See: https://github.com/github/super-linter
 ---
 name: Linter
 on:
@@ -16,3 +17,4 @@ jobs:
         uses: docker://github/super-linter:v3.3.0
         env:
           VALIDATE_MD: true
+          VALIDATE_YAML: true
