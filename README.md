@@ -9,11 +9,13 @@
 
 - [MkDocs][] 1.1+
   with the [Macros][] and [Mermaid][] plugins
+  and the [Material][] theme
 
-[Python]:  https://www.python.org
-[MkDocs]:  https://www.mkdocs.org
-[Macros]:  https://github.com/fralau/mkdocs_macros_plugin
-[Mermaid]: https://github.com/fralau/mkdocs-mermaid2-plugin
+[Python]:   https://www.python.org
+[MkDocs]:   https://www.mkdocs.org
+[Macros]:   https://github.com/fralau/mkdocs_macros_plugin
+[Mermaid]:  https://github.com/fralau/mkdocs-mermaid2-plugin
+[Material]: https://github.com/squidfunk/mkdocs-material
 
 ## Development
 
