@@ -4,13 +4,36 @@
 
 Language        | Type      | Symbol
 :---------------| :-------- | :-------------------------------------------------
-[C][]           | struct    | `Latitude`
-[C++][]         | struct    | `dogma::Latitude`
-[Dart][]        | class     | `Latitude`
-[Protobuf][]    | message   | `dogma.Latitude`
-[Python][]      | class     | `dogma.Latitude`
-[Ruby][]        | class     | `Dogma::Latitude`
-[Zig][]         | struct    | `dogma.Latitude`
+[C]             | struct    | `Latitude`
+[C++]           | struct    | `dogma::Latitude`
+[Dart]          | class     | `Latitude`
+[Protobuf]      | message   | `dogma.Latitude`
+[Python]        | class     | `dogma.Latitude`
+[Ruby]          | class     | `Dogma::Latitude`
+[Zig]           | struct    | `dogma.Latitude`
+
+## Description
+
+## Constants
+
+### `MAX_DEGREES`
+
+### `MIN_DEGREES`
+
+## Constructor
+
+Language        | Type
+:---------------| :-------------------------------------------------------------
+[C]             | `Latitude(90)`
+[C++]           | `Latitude{90}`
+[Dart]          | `Latitude(90)`
+[Python]        | `Latitude(90)`
+[Ruby]          | `Latitude.new(90)`
+[Zig]           | `Latitude.init(90)`
+
+## Properties
+
+## Methods
 
 [C]:        https://github.com/dogmatists/dogma.c/blob/master/dogma/latitude.h
 [C++]:      https://github.com/dogmatists/dogma.cpp/blob/master/dogma/latitude.hpp
