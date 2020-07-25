@@ -58,9 +58,36 @@ Language        | Type
 
 ### `degrees`
 
+Language        | Type
+:---------------| :-------------------------------------------------------------
+[C]             | `AngleToDegrees(angle)`
+[C++]           | `angle.degrees()`
+[Dart]          | `angle.degrees`
+[Python]        | `angle.degrees`
+[Ruby]          | `angle.degrees`
+[Zig]           | `angle.degrees()`
+
 ### `radians`
 
+Language        | Type
+:---------------| :-------------------------------------------------------------
+[C]             | `AngleToRadians(angle)`
+[C++]           | `angle.radians()`
+[Dart]          | `angle.radians`
+[Python]        | `angle.radians`
+[Ruby]          | `angle.radians`
+[Zig]           | `angle.radians()`
+
 ### `turns`
+
+Language        | Type
+:---------------| :-------------------------------------------------------------
+[C]             | `AngleToTurns(angle)`
+[C++]           | `angle.turns()`
+[Dart]          | `angle.turns`
+[Python]        | `angle.turns`
+[Ruby]          | `angle.turns`
+[Zig]           | `angle.turns()`
 
 ## Methods
 
