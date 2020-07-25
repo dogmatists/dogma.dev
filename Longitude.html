@@ -5,12 +5,12 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<link href="https://dogma.dev/Angle/index.html" rel="canonical"/>
+<link href="https://dogma.dev/Longitude.html" rel="canonical"/>
 <meta content="Arto Bendiken" name="author"/>
-<link href="../assets/images/favicon.png" rel="shortcut icon"/>
-<meta content="mkdocs-1.1.2, mkdocs-material-5.2.2" name="generator"/>
-<title>Angle - Dogma</title>
-<link href="../assets/stylesheets/main.a2408e81.min.css" rel="stylesheet"/>
+<link href="assets/images/favicon.png" rel="shortcut icon"/>
+<meta content="mkdocs-1.1.2, mkdocs-material-5.4.0" name="generator"/>
+<title>Longitude - Dogma</title>
+<link href="assets/stylesheets/main.fe0cca5b.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&amp;display=fallback" rel="stylesheet"/>
 <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
@@ -20,7 +20,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#angle-class">
+<a class="md-skip" href="#longitude-class">
           Skip to content
         </a>
 </div>
@@ -41,7 +41,7 @@
           </span>
 <span class="md-header-nav__topic md-ellipsis">
             
-              Angle
+              Longitude
             
           </span>
 </div>
@@ -111,47 +111,47 @@
 </div>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../index.html" title="Introduction">
+<a class="md-nav__link" href="index.html" title="Introduction">
       Introduction
     </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../install.html" title="Installation">
+<a class="md-nav__link" href="install.html" title="Installation">
       Installation
     </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../start.html" title="Getting Started">
+<a class="md-nav__link" href="start.html" title="Getting Started">
       Getting Started
     </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../concepts.html" title="Concepts">
+<a class="md-nav__link" href="concepts.html" title="Concepts">
       Concepts
     </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../learn.html" title="Tutorials">
+<a class="md-nav__link" href="learn.html" title="Tutorials">
       Tutorials
     </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../faq.html" title="FAQs">
+<a class="md-nav__link" href="faq.html" title="FAQs">
       FAQs
     </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../history.html" title="Release Notes">
+<a class="md-nav__link" href="history.html" title="Release Notes">
       Release Notes
     </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../glossary.html" title="Glossary">
+<a class="md-nav__link" href="glossary.html" title="Glossary">
       Glossary
     </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../license.html" title="License">
+<a class="md-nav__link" href="license.html" title="License">
       License
     </a>
 </li>
@@ -171,16 +171,26 @@
         Reference
       </label>
 <ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="Angle.html" title="Angle">
+      Angle
+    </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="Latitude.html" title="Latitude">
+      Latitude
+    </a>
+</li>
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
 <label class="md-nav__link md-nav__link--active" for="__toc">
-        Angle
+        Longitude
         <span class="md-nav__icon md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"></path></svg>
 </span>
 </label>
-<a class="md-nav__link md-nav__link--active" href="index.html" title="Angle">
-      Angle
+<a class="md-nav__link md-nav__link--active" href="Longitude.html" title="Longitude">
+      Longitude
     </a>
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
 <label class="md-nav__title" for="__toc">
@@ -195,18 +205,47 @@
     Summary
   </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#description">
+    Description
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#constants">
+    Constants
+  </a>
+<nav aria-label="Constants" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#max_degrees">
+    MAX_DEGREES
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#min_degrees">
+    MIN_DEGREES
+  </a>
+</li>
 </ul>
 </nav>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../Latitude/index.html" title="Latitude">
-      Latitude
-    </a>
+<a class="md-nav__link" href="#constructor">
+    Constructor
+  </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../Longitude/index.html" title="Longitude">
-      Longitude
-    </a>
+<a class="md-nav__link" href="#properties">
+    Properties
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#methods">
+    Methods
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -232,6 +271,45 @@
     Summary
   </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#description">
+    Description
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#constants">
+    Constants
+  </a>
+<nav aria-label="Constants" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#max_degrees">
+    MAX_DEGREES
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#min_degrees">
+    MIN_DEGREES
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#constructor">
+    Constructor
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#properties">
+    Properties
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#methods">
+    Methods
+  </a>
+</li>
 </ul>
 </nav>
 </div>
@@ -239,10 +317,10 @@
 </div>
 <div class="md-content">
 <article class="md-content__inner md-typeset">
-<a class="md-content__button md-icon" href="https://github.com/dogmatists/dogma.dev/edit/master/docs/Angle/index.md" title="Edit this page">
+<a class="md-content__button md-icon" href="https://github.com/dogmatists/dogma.dev/edit/master/docs/Longitude.md" title="Edit this page">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"></path></svg>
 </a>
-<h1 id="angle-class">Angle class</h1>
+<h1 id="longitude-class">Longitude class</h1>
 <h2 id="summary">Summary</h2>
 <table>
 <thead>
@@ -254,42 +332,83 @@
 </thead>
 <tbody>
 <tr>
-<td align="left"><a href="https://github.com/dogmatists/dogma.c/blob/master/dogma/angle.h">C</a></td>
+<td align="left"><a href="https://github.com/dogmatists/dogma.c/blob/master/dogma/longitude.h">C</a></td>
 <td align="left">struct</td>
-<td align="left"><code>Angle</code></td>
+<td align="left"><code>Longitude</code></td>
 </tr>
 <tr>
-<td align="left"><a href="https://github.com/dogmatists/dogma.cpp/blob/master/dogma/angle.hpp">C++</a></td>
+<td align="left"><a href="https://github.com/dogmatists/dogma.cpp/blob/master/dogma/longitude.hpp">C++</a></td>
 <td align="left">struct</td>
-<td align="left"><code>dogma::Angle</code></td>
+<td align="left"><code>dogma::Longitude</code></td>
 </tr>
 <tr>
-<td align="left"><a href="https://github.com/dogmatists/dogma.dart/blob/master/lib/src/angle.dart">Dart</a></td>
+<td align="left"><a href="https://github.com/dogmatists/dogma.dart/blob/master/lib/src/longitude.dart">Dart</a></td>
 <td align="left">class</td>
-<td align="left"><code>Angle</code></td>
+<td align="left"><code>Longitude</code></td>
 </tr>
 <tr>
-<td align="left"><a href="https://github.com/dogmatists/dogma.pb/blob/master/src/angle.proto">Protobuf</a></td>
+<td align="left"><a href="https://github.com/dogmatists/dogma.pb/blob/master/src/longitude.proto">Protobuf</a></td>
 <td align="left">message</td>
-<td align="left"><code>Dogma.Angle</code></td>
+<td align="left"><code>dogma.Longitude</code></td>
 </tr>
 <tr>
-<td align="left"><a href="https://github.com/dogmatists/dogma.py/blob/master/src/dogma/angle.py">Python</a></td>
+<td align="left"><a href="https://github.com/dogmatists/dogma.py/blob/master/src/dogma/longitude.py">Python</a></td>
 <td align="left">class</td>
-<td align="left"><code>dogma.Angle</code></td>
+<td align="left"><code>dogma.Longitude</code></td>
 </tr>
 <tr>
-<td align="left"><a href="https://github.com/dogmatists/dogma.rb/blob/master/lib/dogma/angle.rb">Ruby</a></td>
+<td align="left"><a href="https://github.com/dogmatists/dogma.rb/blob/master/lib/dogma/longitude.rb">Ruby</a></td>
 <td align="left">class</td>
-<td align="left"><code>Dogma::Angle</code></td>
+<td align="left"><code>Dogma::Longitude</code></td>
 </tr>
 <tr>
-<td align="left"><a href="https://github.com/dogmatists/dogma.zig/blob/master/src/angle.zig">Zig</a></td>
+<td align="left"><a href="https://github.com/dogmatists/dogma.zig/blob/master/src/longitude.zig">Zig</a></td>
 <td align="left">struct</td>
-<td align="left"><code>dogma.Angle</code></td>
+<td align="left"><code>dogma.Longitude</code></td>
 </tr>
 </tbody>
 </table>
+<h2 id="description">Description</h2>
+<h2 id="constants">Constants</h2>
+<h3 id="max_degrees"><code>MAX_DEGREES</code></h3>
+<h3 id="min_degrees"><code>MIN_DEGREES</code></h3>
+<h2 id="constructor">Constructor</h2>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><a href="https://github.com/dogmatists/dogma.c/blob/master/dogma/longitude.h">C</a></td>
+<td align="left"><code>Longitude(180)</code></td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/dogmatists/dogma.cpp/blob/master/dogma/longitude.hpp">C++</a></td>
+<td align="left"><code>Longitude{180}</code></td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/dogmatists/dogma.dart/blob/master/lib/src/longitude.dart">Dart</a></td>
+<td align="left"><code>Longitude(180)</code></td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/dogmatists/dogma.py/blob/master/src/dogma/longitude.py">Python</a></td>
+<td align="left"><code>Longitude(180)</code></td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/dogmatists/dogma.rb/blob/master/lib/dogma/longitude.rb">Ruby</a></td>
+<td align="left"><code>Longitude.new(180)</code></td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/dogmatists/dogma.zig/blob/master/src/longitude.zig">Zig</a></td>
+<td align="left"><code>Longitude.init(180)</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="properties">Properties</h2>
+<h2 id="methods">Methods</h2>
 </article>
 </div>
 </div>
@@ -297,7 +416,7 @@
 <footer class="md-footer">
 <div class="md-footer-nav">
 <nav aria-label="Footer" class="md-footer-nav__inner md-grid">
-<a class="md-footer-nav__link md-footer-nav__link--prev" href="../license.html" rel="prev" title="License">
+<a class="md-footer-nav__link md-footer-nav__link--prev" href="Latitude.html" rel="prev" title="Latitude">
 <div class="md-footer-nav__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
 </div>
@@ -306,21 +425,8 @@
 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                License
-              </div>
-</div>
-</a>
-<a class="md-footer-nav__link md-footer-nav__link--next" href="../Latitude/index.html" rel="next" title="Latitude">
-<div class="md-footer-nav__title">
-<div class="md-ellipsis">
-<span class="md-footer-nav__direction">
-                  Next
-                </span>
                 Latitude
               </div>
-</div>
-<div class="md-footer-nav__button md-icon">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"></path></svg>
 </div>
 </a>
 </nav>
@@ -338,14 +444,14 @@
 </div>
 </footer>
 </div>
-<script src="../assets/javascripts/vendor.d710d30a.min.js"></script>
-<script src="../assets/javascripts/bundle.5f27aba8.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+<script src="assets/javascripts/vendor.d710d30a.min.js"></script>
+<script src="assets/javascripts/bundle.b39636ac.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
 <script>
         app = initialize({
-          base: "..",
+          base: ".",
           features: [],
           search: Object.assign({
-            worker: "../assets/javascripts/worker/search.27c6a5e6.min.js"
+            worker: "assets/javascripts/worker/search.a68abb33.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>

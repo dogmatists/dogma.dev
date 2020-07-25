@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://dogma.dev/index.html</loc>
-     <lastmod>2020-07-19</lastmod>
+     <lastmod>2020-07-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://dogma.dev/install.html</loc>
-     <lastmod>2020-07-19</lastmod>
+     <lastmod>2020-07-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://dogma.dev/start.html</loc>
-     <lastmod>2020-07-19</lastmod>
+     <lastmod>2020-07-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://dogma.dev/concepts.html</loc>
-     <lastmod>2020-07-19</lastmod>
+     <lastmod>2020-07-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://dogma.dev/learn.html</loc>
-     <lastmod>2020-07-19</lastmod>
+     <lastmod>2020-07-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://dogma.dev/faq.html</loc>
-     <lastmod>2020-07-19</lastmod>
+     <lastmod>2020-07-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://dogma.dev/history.html</loc>
-     <lastmod>2020-07-19</lastmod>
+     <lastmod>2020-07-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://dogma.dev/glossary.html</loc>
-     <lastmod>2020-07-19</lastmod>
+     <lastmod>2020-07-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://dogma.dev/license.html</loc>
-     <lastmod>2020-07-19</lastmod>
+     <lastmod>2020-07-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://dogma.dev/Angle/index.html</loc>
-     <lastmod>2020-07-19</lastmod>
+     <loc>https://dogma.dev/Angle.html</loc>
+     <lastmod>2020-07-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://dogma.dev/Latitude/index.html</loc>
-     <lastmod>2020-07-19</lastmod>
+     <loc>https://dogma.dev/Latitude.html</loc>
+     <lastmod>2020-07-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://dogma.dev/Longitude/index.html</loc>
-     <lastmod>2020-07-19</lastmod>
+     <loc>https://dogma.dev/Longitude.html</loc>
+     <lastmod>2020-07-25</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
