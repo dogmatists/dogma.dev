@@ -25,9 +25,9 @@ nav:
   - Glossary: glossary.md
   - License: license.md
   - Reference:
-    - Angle: Angle/index.md
-    - Latitude: Latitude/index.md
-    - Longitude: Longitude/index.md
+    - Angle: Angle.md
+    - Latitude: Latitude.md
+    - Longitude: Longitude.md
 
 # Theme configuration:
 theme: material

@@ -64,9 +64,9 @@ Language        | Type
 
 ## Methods
 
-[degrees]:  ../glossary.md#degree
-[radians]:  ../glossary.md#radian
-[turns]:    ../glossary.md#turn
+[degrees]:  glossary.md#degree
+[radians]:  glossary.md#radian
+[turns]:    glossary.md#turn
 
 [C]:        https://github.com/dogmatists/dogma.c/blob/master/dogma/angle.h
 [C++]:      https://github.com/dogmatists/dogma.cpp/blob/master/dogma/angle.hpp
