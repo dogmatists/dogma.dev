@@ -22,18 +22,117 @@ Language        | Type      | Symbol
 
 ### `MAX_DEGREES`
 
+=== "C"
+
+    ```c
+    
+    ```
+
+=== "C++"
+
+    ```c++
+    
+    ```
+
+=== "Dart"
+
+    ```dart
+    
+    ```
+
+=== "Python"
+
+    ```python
+    
+    ```
+
+=== "Ruby"
+
+    ```ruby
+    
+    ```
+
+=== "Zig"
+
+    ```zig
+    
+    ```
+
 ### `MIN_DEGREES`
+
+=== "C"
+
+    ```c
+    
+    ```
+
+=== "C++"
+
+    ```c++
+    
+    ```
+
+=== "Dart"
+
+    ```dart
+    
+    ```
+
+=== "Python"
+
+    ```python
+    
+    ```
+
+=== "Ruby"
+
+    ```ruby
+    
+    ```
+
+=== "Zig"
+
+    ```zig
+    
+    ```
 
 ## Constructor
 
-Language        | Type
-:---------------| :-------------------------------------------------------------
-[C]             | `Latitude(90)`
-[C++]           | `Latitude{90}`
-[Dart]          | `Latitude(90)`
-[Python]        | `Latitude(90)`
-[Ruby]          | `Latitude.new(90)`
-[Zig]           | `Latitude.init(90)`
+=== "C"
+
+    ```c
+    Latitude(90)
+    ```
+
+=== "C++"
+
+    ```c++
+    Latitude{90}
+    ```
+
+=== "Dart"
+
+    ```dart
+    Latitude(90)
+    ```
+
+=== "Python"
+
+    ```python
+    Latitude(90)
+    ```
+
+=== "Ruby"
+
+    ```ruby
+    Latitude.new(90)
+    ```
+
+=== "Zig"
+
+    ```zig
+    Latitude.init(90)
+    ```
 
 ## Properties
 

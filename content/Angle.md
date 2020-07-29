@@ -27,71 +27,233 @@ Angles are represented using [radians], but can be constructed from radians,
 
 ### From degrees
 
-Language        | Type
-:---------------| :-------------------------------------------------------------
-[C]             | `AngleFromDegrees(180)`
-[C++]           | `Angle::from_degrees(180)`
-[Dart]          | `Angle.fromDegrees(180)`
-[Python]        | `Angle(degrees=180)`
-[Ruby]          | `Angle.new(degrees: 180)`
-[Zig]           | `Angle.fromDegrees(180)`
+=== "C"
+
+    ```c
+    AngleFromDegrees(180)
+    ```
+
+=== "C++"
+
+    ```c++
+    Angle::from_degrees(180)
+    ```
+
+=== "Dart"
+
+    ```dart
+    Angle.fromDegrees(180)
+    ```
+
+=== "Python"
+
+    ```python
+    Angle(degrees=180)
+    ```
+
+=== "Ruby"
+
+    ```ruby
+    Angle.new(degrees: 180)
+    ```
+
+=== "Zig"
+
+    ```zig
+    Angle.fromDegrees(180)
+    ```
 
 ### From radians
 
-Language        | Type
-:---------------| :-------------------------------------------------------------
-[C]             | `AngleFromRadians(M_PI)`
-[C++]           | `Angle::from_radians(M_PI)`
-[Dart]          | `Angle.fromRadians(math.pi)`
-[Python]        | `Angle(radians=math.pi)`
-[Ruby]          | `Angle.new(radians: Math::PI)`
-[Zig]           | `Angle.fromRadians(std.math.pi)`
+=== "C"
+
+    ```c
+    AngleFromRadians(M_PI)
+    ```
+
+=== "C++"
+
+    ```c++
+    Angle::from_radians(M_PI)
+    ```
+
+=== "Dart"
+
+    ```dart
+    Angle.fromRadians(math.pi)
+    ```
+
+=== "Python"
+
+    ```python
+    Angle(radians=math.pi)
+    ```
+
+=== "Ruby"
+
+    ```ruby
+    Angle.new(radians: Math::PI)
+    ```
+
+=== "Zig"
+
+    ```zig
+    Angle.fromRadians(std.math.pi)
+    ```
 
 ### From turns
 
-Language        | Type
-:---------------| :-------------------------------------------------------------
-[C]             | `AngleFromTurns(0.5)`
-[C++]           | `Angle::from_turns(0.5)`
-[Dart]          | `Angle.fromTurns(0.5)`
-[Python]        | `Angle(turns=0.5)`
-[Ruby]          | `Angle.new(turns: 0.5)`
-[Zig]           | `Angle.fromTurns(0.5)`
+=== "C"
+
+    ```c
+    AngleFromTurns(0.5)
+    ```
+
+=== "C++"
+
+    ```c++
+    Angle::from_turns(0.5)
+    ```
+
+=== "Dart"
+
+    ```dart
+    Angle.fromTurns(0.5)
+    ```
+
+=== "Python"
+
+    ```python
+    Angle(turns=0.5)
+    ```
+
+=== "Ruby"
+
+    ```ruby
+    Angle.new(turns: 0.5)
+    ```
+
+=== "Zig"
+
+    ```zig
+    Angle.fromTurns(0.5)
+    ```
 
 ## Properties
 
 ### `degrees`
 
-Language        | Type
-:---------------| :-------------------------------------------------------------
-[C]             | `AngleToDegrees(angle)`
-[C++]           | `angle.degrees()`
-[Dart]          | `angle.degrees`
-[Python]        | `angle.degrees`
-[Ruby]          | `angle.degrees`
-[Zig]           | `angle.degrees()`
+=== "C"
+
+    ```c
+    AngleToDegrees(angle)
+    ```
+
+=== "C++"
+
+    ```c++
+    angle.degrees()
+    ```
+
+=== "Dart"
+
+    ```dart
+    angle.degrees
+    ```
+
+=== "Python"
+
+    ```python
+    angle.degrees
+    ```
+
+=== "Ruby"
+
+    ```ruby
+    angle.degrees
+    ```
+
+=== "Zig"
+
+    ```zig
+    angle.degrees()
+    ```
 
 ### `radians`
 
-Language        | Type
-:---------------| :-------------------------------------------------------------
-[C]             | `AngleToRadians(angle)`
-[C++]           | `angle.radians()`
-[Dart]          | `angle.radians`
-[Python]        | `angle.radians`
-[Ruby]          | `angle.radians`
-[Zig]           | `angle.radians()`
+=== "C"
+
+    ```c
+    AngleToRadians(angle)
+    ```
+
+=== "C++"
+
+    ```c++
+    angle.radians()
+    ```
+
+=== "Dart"
+
+    ```dart
+    angle.radians
+    ```
+
+=== "Python"
+
+    ```python
+    angle.radians
+    ```
+
+=== "Ruby"
+
+    ```ruby
+    angle.radians
+    ```
+
+=== "Zig"
+
+    ```zig
+    angle.radians()
+    ```
 
 ### `turns`
 
-Language        | Type
-:---------------| :-------------------------------------------------------------
-[C]             | `AngleToTurns(angle)`
-[C++]           | `angle.turns()`
-[Dart]          | `angle.turns`
-[Python]        | `angle.turns`
-[Ruby]          | `angle.turns`
-[Zig]           | `angle.turns()`
+=== "C"
+
+    ```c
+    AngleToTurns(angle)
+    ```
+
+=== "C++"
+
+    ```c++
+    angle.turns()
+    ```
+
+=== "Dart"
+
+    ```dart
+    angle.turns
+    ```
+
+=== "Python"
+
+    ```python
+    angle.turns
+    ```
+
+=== "Ruby"
+
+    ```ruby
+    angle.turns
+    ```
+
+=== "Zig"
+
+    ```zig
+    angle.turns()
+    ```
 
 ## Methods
 
