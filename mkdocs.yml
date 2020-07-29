@@ -44,6 +44,11 @@ plugins:
       arguments:
         theme: neutral
 
-# Mermaid plugin configuration:
+# Custom CSS configuration:
+extra_css:
+  - css/extra.css
+
+# Custom JS configuration:
 extra_javascript:
-  - https://unpkg.com/mermaid@8.5.2/dist/mermaid.min.js
+  - https://unpkg.com/mermaid@8.5.2/dist/mermaid.min.js  # Mermaid plugin
+  - js/extra.js
