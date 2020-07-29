@@ -4,6 +4,7 @@
 site_name: Dogma
 site_author: Arto Bendiken
 site_url: https://dogma.dev
+repo_name: dogmatists/dogma.dev
 repo_url: https://github.com/dogmatists/dogma.dev
 google_analytics:
 
@@ -30,7 +31,10 @@ nav:
     - Longitude: Longitude.md
 
 # Theme configuration:
-theme: material
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
 
 # Markdown configuration:
 markdown_extensions:
