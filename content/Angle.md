@@ -26,7 +26,7 @@ Angles are represented using [radians], but can be constructed from radians,
 Language        | Type
 :---------------| :-------------------------------------------------------------
 [C]             | `AngleFromDegrees(180)`
-[C++]           | `Angle.from_degrees(180)`
+[C++]           | `Angle::from_degrees(180)`
 [Dart]          | `Angle.fromDegrees(180)`
 [Python]        | `Angle(degrees=180)`
 [Ruby]          | `Angle.new(degrees: 180)`
@@ -37,7 +37,7 @@ Language        | Type
 Language        | Type
 :---------------| :-------------------------------------------------------------
 [C]             | `AngleFromRadians(M_PI)`
-[C++]           | `Angle.from_radians(M_PI)`
+[C++]           | `Angle::from_radians(M_PI)`
 [Dart]          | `Angle.fromRadians(math.pi)`
 [Python]        | `Angle(radians=math.pi)`
 [Ruby]          | `Angle.new(radians: Math::PI)`
@@ -48,7 +48,7 @@ Language        | Type
 Language        | Type
 :---------------| :-------------------------------------------------------------
 [C]             | `AngleFromTurns(0.5)`
-[C++]           | `Angle.from_turns(0.5)`
+[C++]           | `Angle::from_turns(0.5)`
 [Dart]          | `Angle.fromTurns(0.5)`
 [Python]        | `Angle(turns=0.5)`
 [Ruby]          | `Angle.new(turns: 0.5)`
