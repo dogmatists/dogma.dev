@@ -4,7 +4,7 @@ title: Dogma
 
 # Dogma
 
-!!! warning "Here be dragons"
+!!! caution "Here be dragons"
 
     This is a semi-public, pre-alpha, work-in-progress project.
     
@@ -21,20 +21,95 @@ GitHub][] and follow the author [on Twitter][] for project announcements.
 [at GitHub]:  https://github.com/artob
 [on Twitter]: https://twitter.com/bendiken
 
-Language        | Package
-:---------------| --------------------------------------------------------------
-[C][]           |
-[C++][]         |
-[Dart][]        | [![Pub package](https://img.shields.io/pub/v/dogma.svg)](https://pub.dev/packages/dogma)
-[Protobuf][]    |
-[Python][]      | [![PyPI package](https://img.shields.io/pypi/v/dogma.py.svg)](https://pypi.org/project/dogma.py/)
-[Ruby][]        | [![RubyGems gem](https://img.shields.io/gem/v/dogma.rb.svg)](https://rubygems.org/gems/dogma.rb)
-[Zig][]         |
+## Installation
 
-[C]:        https://github.com/dogmatists/dogma.c
-[C++]:      https://github.com/dogmatists/dogma.cpp
-[Dart]:     https://github.com/dogmatists/dogma.dart
-[Protobuf]: https://github.com/dogmatists/dogma.pb
-[Python]:   https://github.com/dogmatists/dogma.py
-[Ruby]:     https://github.com/dogmatists/dogma.rb
-[Zig]:      https://github.com/dogmatists/dogma.zig
+=== "C"
+
+    ```bash
+    git clone https://github.com/dogmatists/dogma.c.git
+    ```
+
+=== "C++"
+
+    ```bash
+    git clone https://github.com/dogmatists/dogma.cpp.git
+    ```
+
+=== "Dart"
+
+    ```
+    dependencies:
+      dogma: ^0.0.0
+    ```
+
+=== "Protobuf"
+
+    ```bash
+    git clone https://github.com/dogmatists/dogma.pb.git
+    ```
+
+=== "Python"
+
+    ```bash
+    pip3 install dogma.py
+    ```
+
+=== "Ruby"
+
+    ```bash
+    gem install dogma.rb
+    ```
+
+=== "Zig"
+
+    ```bash
+    git clone https://github.com/dogmatists/dogma.zig.git
+    ```
+
+For more detailed instructions, see the [Installation](install.md) chapter.
+
+## Usage
+
+=== "C"
+
+    ```c
+    #include <dogma.h>
+    ```
+
+=== "C++"
+
+    ```c++
+    #include <dogma.hpp>
+    ```
+
+=== "Dart"
+
+    ```dart
+    import 'package:dogma/dogma.dart';
+    ```
+
+=== "Protobuf"
+
+    ```protobuf
+    import "dogma.proto";
+    ```
+
+=== "Python"
+
+    ```python
+    import dogma
+    ```
+
+=== "Ruby"
+
+    ```ruby
+    require 'dogma'
+    ```
+
+=== "Zig"
+
+    ```zig
+    const dogma = @import("dogma");
+    ```
+
+For more detailed instructions, see the [Getting Started](start.md) chapter.

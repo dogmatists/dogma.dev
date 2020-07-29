@@ -23,3 +23,47 @@ Language        | Command
 [Python]:   https://github.com/dogmatists/dogma.py
 [Ruby]:     https://github.com/dogmatists/dogma.rb
 [Zig]:      https://github.com/dogmatists/dogma.zig
+
+## Installing from Git
+
+=== "C"
+
+    ```bash
+    git clone https://github.com/dogmatists/dogma.c.git
+    ```
+
+=== "C++"
+
+    ```bash
+    git clone https://github.com/dogmatists/dogma.cpp.git
+    ```
+
+=== "Dart"
+
+    ```bash
+    git clone https://github.com/dogmatists/dogma.dart.git
+    ```
+
+=== "Protobuf"
+
+    ```bash
+    git clone https://github.com/dogmatists/dogma.pb.git
+    ```
+
+=== "Python"
+
+    ```bash
+    git clone https://github.com/dogmatists/dogma.py.git
+    ```
+
+=== "Ruby"
+
+    ```bash
+    git clone https://github.com/dogmatists/dogma.rb.git
+    ```
+
+=== "Zig"
+
+    ```bash
+    git clone https://github.com/dogmatists/dogma.zig.git
+    ```
