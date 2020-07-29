@@ -1,0 +1,5 @@
+div.md-typeset__table { width: 100%; }
+
+table { width: 100%; }
+
+table tbody tr td:last-child { width: 100%; }
