@@ -56,3 +56,26 @@ extra_css:
 extra_javascript:
   - https://unpkg.com/mermaid@8.5.2/dist/mermaid.min.js  # Mermaid plugin
   - js/extra.js
+
+# Footer configuration:
+extra:
+  social:
+    - name: Dogma on GitHub
+      icon: fontawesome/brands/github
+      link: https://github.com/dogmatists
+    - name: Dogma on GitLab
+      icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/dogmatists
+    - name: Dogma on Bitbucket
+      icon: fontawesome/brands/bitbucket
+      link: https://bitbucket.org/dogmatists
+    - name: Dogma on Stack Overflow
+      icon: fontawesome/brands/stack-overflow
+      link: https://stackoverflow.com/questions/tagged/dogma
+    - name: Dogma on Twitter
+      icon: fontawesome/brands/twitter
+      link: https://twitter.com/bendiken
+
+google_analytics:
+  - UA-83574-22
+  - auto
