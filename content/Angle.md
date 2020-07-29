@@ -1,3 +1,7 @@
+---
+title: "Dogma: Angle Class"
+---
+
 # Angle class
 
 ## Summary

@@ -1,3 +1,7 @@
+---
+title: "Dogma: Latitude Class"
+---
+
 # Latitude class
 
 ## Summary

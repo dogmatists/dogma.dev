@@ -1,3 +1,7 @@
+---
+title: Dogma
+---
+
 # Dogma
 
 !!! warning "Here be dragons"

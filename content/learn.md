@@ -1,3 +1,7 @@
+---
+title: "Dogma: Tutorials"
+---
+
 # Tutorials
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus

@@ -1,3 +1,7 @@
+---
+title: "Dogma: Glossary"
+---
+
 # Glossary
 
 ## 0-9

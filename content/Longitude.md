@@ -1,3 +1,7 @@
+---
+title: "Dogma: Longitude Class"
+---
+
 # Longitude class
 
 ## Summary

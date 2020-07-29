@@ -1,3 +1,7 @@
+---
+title: "Dogma: Concepts"
+---
+
 # Concepts
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus

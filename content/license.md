@@ -1,3 +1,7 @@
+---
+title: "Dogma: License"
+---
+
 # License
 
 The project in its entirety, including all source code as well as this manual,

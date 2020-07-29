@@ -1,3 +1,7 @@
+---
+title: "Dogma: Installation"
+---
+
 # Installation
 
 ## Summary
