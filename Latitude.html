@@ -199,6 +199,11 @@
     </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
+<a class="md-nav__link" href="#diagram">
+    Diagram
+  </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="#summary">
     Summary
   </a>
@@ -240,6 +245,11 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="#methods">
     Methods
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#schema">
+    Schema
   </a>
 </li>
 </ul>
@@ -270,6 +280,11 @@
     </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
+<a class="md-nav__link" href="#diagram">
+    Diagram
+  </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="#summary">
     Summary
   </a>
@@ -313,6 +328,11 @@
     Methods
   </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#schema">
+    Schema
+  </a>
+</li>
 </ul>
 </nav>
 </div>
@@ -324,6 +344,16 @@
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"></path></svg>
 </a>
 <h1 id="latitude-class">Latitude class<a class="headerlink" href="#latitude-class" title="Permanent link">¶</a></h1>
+<h2 id="diagram">Diagram<a class="headerlink" href="#diagram" title="Permanent link">¶</a></h2>
+<div class="mermaid">classDiagram
+    class Angle {
+      -double radians
+      +radians() double
+      +degrees() double
+      +turns() double
+    }
+    class Latitude
+    Angle &lt;|-- Latitude : extends</div>
 <h2 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">¶</a></h2>
 <table>
 <thead>
@@ -453,6 +483,63 @@
 </div>
 <h2 id="properties">Properties<a class="headerlink" href="#properties" title="Permanent link">¶</a></h2>
 <h2 id="methods">Methods<a class="headerlink" href="#methods" title="Permanent link">¶</a></h2>
+<h2 id="schema">Schema<a class="headerlink" href="#schema" title="Permanent link">¶</a></h2>
+<div class="tabbed-set" data-tabs="4:7"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio"/><label for="__tabbed_4_1">Flat Buffers</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">struct</span> <span class="n">Latitude</span> <span class="p">{</span>
+  <span class="n">angle</span><span class="o">:</span> <span class="n">Angle</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+</div>
+<input id="__tabbed_4_2" name="__tabbed_4" type="radio"/><label for="__tabbed_4_2">Joi</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="nx">Joi</span><span class="p">.</span><span class="nx">number</span><span class="p">().</span><span class="nx">min</span><span class="p">(</span><span class="o">-</span><span class="mi">90</span><span class="p">).</span><span class="nx">max</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+</code></pre></div>
+</div>
+<input id="__tabbed_4_3" name="__tabbed_4" type="radio"/><label for="__tabbed_4_3">JSON Schema</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+  <span class="nt">"type"</span><span class="p">:</span> <span class="s2">"number"</span><span class="p">,</span>
+  <span class="nt">"minimum"</span><span class="p">:</span> <span class="mi">-90</span><span class="p">,</span>
+  <span class="nt">"maximum"</span><span class="p">:</span> <span class="mi">90</span>
+<span class="p">}</span>
+</code></pre></div>
+</div>
+<input id="__tabbed_4_4" name="__tabbed_4" type="radio"/><label for="__tabbed_4_4">OWL</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="nn">dogma:</span><span class="nt">Latitude</span><span class="w"></span>
+<span class="w">  </span><span class="kt">a</span><span class="w"> </span><span class="nn">owl:</span><span class="nt">DatatypeProperty</span><span class="w"> </span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="nn">rdfs:</span><span class="nt">range</span><span class="w"> </span><span class="nn">xsd:</span><span class="nt">double</span><span class="w"> </span><span class="p">.</span><span class="w"></span>
+
+<span class="p">[]</span><span class="w"></span>
+<span class="w">  </span><span class="kt">a</span><span class="w"> </span><span class="nn">owl:</span><span class="nt">Restriction</span><span class="w"> </span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="nn">owl:</span><span class="nt">onProperty</span><span class="w"> </span><span class="nn">dogma:</span><span class="nt">Latitude</span><span class="w"> </span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="nn">owl:</span><span class="nt">someValuesFrom</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
+<span class="w">    </span><span class="kt">a</span><span class="w"> </span><span class="nn">rdfs:</span><span class="nt">Datatype</span><span class="w"> </span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="nn">owl:</span><span class="nt">onDatatype</span><span class="w"> </span><span class="nn">xsd:</span><span class="nt">double</span><span class="w"> </span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="nn">owl:</span><span class="nt">withRestrictions</span><span class="w"> </span><span class="p">(</span><span class="w"></span>
+<span class="w">      </span><span class="p">[</span><span class="nn">xsd:</span><span class="nt">minInclusive</span><span class="w"> </span><span class="s">"-90"</span><span class="o">^^</span><span class="ge">xsd:double</span><span class="p">]</span><span class="w"></span>
+<span class="w">      </span><span class="p">[</span><span class="nn">xsd:</span><span class="nt">maxInclusive</span><span class="w"> </span><span class="s">"90"</span><span class="o">^^</span><span class="ge">xsd:double</span><span class="p">]</span><span class="w"></span>
+<span class="w">    </span><span class="p">)</span><span class="w"></span>
+<span class="w">  </span><span class="p">]</span><span class="w"> </span><span class="p">.</span><span class="w"></span>
+</code></pre></div>
+</div>
+<input id="__tabbed_4_5" name="__tabbed_4" type="radio"/><label for="__tabbed_4_5">Protocol Buffers</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="kd">message</span> <span class="nc">Latitude</span> <span class="p">{</span>
+  <span class="n">Angle</span> <span class="na">angle</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+</div>
+<input id="__tabbed_4_6" name="__tabbed_4" type="radio"/><label for="__tabbed_4_6">SQL</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">latitude</span> <span class="n">DOUBLE</span> <span class="k">PRECISION</span>  <span class="c1">-- in degrees from -90° to 90°</span>
+</code></pre></div>
+</div>
+<input id="__tabbed_4_7" name="__tabbed_4" type="radio"/><label for="__tabbed_4_7">XML Schema</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="nt">&lt;xs:simpleType</span> <span class="na">name=</span><span class="s">"Latitude"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;xs:restriction</span> <span class="na">base=</span><span class="s">"xs:double"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;xs:minInclusive</span> <span class="na">value=</span><span class="s">"-90"</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;xs:maxInclusive</span> <span class="na">value=</span><span class="s">"90"</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/xs:restriction&gt;</span>
+<span class="nt">&lt;/xs:simpleType&gt;</span>
+</code></pre></div>
+</div>
+</div>
 </article>
 </div>
 </div>
@@ -531,5 +618,5 @@
       </script>
 <script src="https://unpkg.com/mermaid@8.5.2/dist/mermaid.min.js"></script>
 <script src="js/extra.js"></script>
-</body>
+<script>mermaid.initialize({"theme": "neutral"});</script></body>
 </html>
