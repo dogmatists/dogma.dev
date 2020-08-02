@@ -4,6 +4,20 @@ title: "Dogma: Longitude Class"
 
 # Longitude class
 
+## Diagram
+
+```mermaid
+classDiagram
+    class Angle {
+      -double radians
+      +radians() double
+      +degrees() double
+      +turns() double
+    }
+    class Longitude
+    Angle <|-- Longitude : extends
+```
+
 ## Summary
 
 Language        | Type      | Symbol

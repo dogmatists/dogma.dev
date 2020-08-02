@@ -4,6 +4,20 @@ title: "Dogma: Latitude Class"
 
 # Latitude class
 
+## Diagram
+
+```mermaid
+classDiagram
+    class Angle {
+      -double radians
+      +radians() double
+      +degrees() double
+      +turns() double
+    }
+    class Latitude
+    Angle <|-- Latitude : extends
+```
+
 ## Summary
 
 Language        | Type      | Symbol

@@ -4,6 +4,18 @@ title: "Dogma: Angle Class"
 
 # Angle class
 
+## Diagram
+
+```mermaid
+classDiagram
+    class Angle {
+      -double radians
+      +radians() double
+      +degrees() double
+      +turns() double
+    }
+```
+
 ## Summary
 
 Language        | Type      | Symbol
