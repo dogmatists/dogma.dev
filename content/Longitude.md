@@ -223,6 +223,10 @@ Language        | Type      | Symbol
     </xs:simpleType>
     ```
 
+## References
+
+- [en.wikipedia.org/wiki/Longitude](https://en.wikipedia.org/wiki/Longitude)
+
 [C]:        https://github.com/dogmatists/dogma.c/blob/master/dogma/longitude.h
 [C++]:      https://github.com/dogmatists/dogma.cpp/blob/master/dogma/longitude.hpp
 [Dart]:     https://github.com/dogmatists/dogma.dart/blob/master/lib/src/longitude.dart

@@ -223,6 +223,10 @@ Language        | Type      | Symbol
     </xs:simpleType>
     ```
 
+## References
+
+- [en.wikipedia.org/wiki/Latitude](https://en.wikipedia.org/wiki/Latitude)
+
 [C]:        https://github.com/dogmatists/dogma.c/blob/master/dogma/latitude.h
 [C++]:      https://github.com/dogmatists/dogma.cpp/blob/master/dogma/latitude.hpp
 [Dart]:     https://github.com/dogmatists/dogma.dart/blob/master/lib/src/latitude.dart

@@ -321,6 +321,10 @@ Angles are represented using [radians], but can be constructed from radians,
     </xs:simpleType>
     ```
 
+## References
+
+- [en.wikipedia.org/wiki/Angle](https://en.wikipedia.org/wiki/Angle)
+
 [degrees]:  glossary.md#degree
 [radians]:  glossary.md#radian
 [turns]:    glossary.md#turn
