@@ -152,6 +152,77 @@ Language        | Type      | Symbol
 
 ## Methods
 
+## Schema
+
+=== "Flat Buffers"
+
+    ```protobuf
+    struct Latitude {
+      angle: Angle;
+    }
+    ```
+
+=== "Joi"
+
+    ```javascript
+    Joi.number().min(-90).max(90)
+    ```
+
+=== "JSON Schema"
+
+    ```json
+    {
+      "type": "number",
+      "minimum": -90,
+      "maximum": 90
+    }
+    ```
+
+=== "OWL"
+
+    ```turtle
+    dogma:Latitude
+      a owl:DatatypeProperty ;
+      rdfs:range xsd:double .
+
+    []
+      a owl:Restriction ;
+      owl:onProperty dogma:Latitude ;
+      owl:someValuesFrom [
+        a rdfs:Datatype ;
+        owl:onDatatype xsd:double ;
+        owl:withRestrictions (
+          [xsd:minInclusive "-90"^^xsd:double]
+          [xsd:maxInclusive "90"^^xsd:double]
+        )
+      ] .
+    ```
+
+=== "Protocol Buffers"
+
+    ```protobuf
+    message Latitude {
+      Angle angle = 1;
+    }
+    ```
+
+=== "SQL"
+
+    ```sql
+    latitude DOUBLE PRECISION  -- in degrees from -90° to 90°
+    ```
+
+=== "XML Schema"
+
+    ```xml
+    <xs:simpleType name="Latitude">
+      <xs:restriction base="xs:double">
+        <xs:minInclusive value="-90"/>
+        <xs:maxInclusive value="90"/>
+      </xs:restriction>
+    </xs:simpleType>
+    ```
+
 [C]:        https://github.com/dogmatists/dogma.c/blob/master/dogma/latitude.h
 [C++]:      https://github.com/dogmatists/dogma.cpp/blob/master/dogma/latitude.hpp
 [Dart]:     https://github.com/dogmatists/dogma.dart/blob/master/lib/src/latitude.dart

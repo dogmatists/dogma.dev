@@ -269,6 +269,58 @@ Angles are represented using [radians], but can be constructed from radians,
 
 ## Methods
 
+## Schema
+
+=== "Flat Buffers"
+
+    ```protobuf
+    struct Angle {
+      radians: double;
+    }
+    ```
+
+=== "Joi"
+
+    ```javascript
+    Joi.number()
+    ```
+
+=== "JSON Schema"
+
+    ```json
+    {"type": "number"}
+    ```
+
+=== "OWL"
+
+    ```turtle
+    dogma:Angle
+      a owl:DatatypeProperty ;
+      rdfs:range xsd:double .
+    ```
+
+=== "Protocol Buffers"
+
+    ```protobuf
+    message Angle {
+      double radians = 1;
+    }
+    ```
+
+=== "SQL"
+
+    ```sql
+    angle DOUBLE PRECISION  -- in radians
+    ```
+
+=== "XML Schema"
+
+    ```xml
+    <xs:simpleType name="Angle">
+      <xs:restriction base="xs:double"/>
+    </xs:simpleType>
+    ```
+
 [degrees]:  glossary.md#degree
 [radians]:  glossary.md#radian
 [turns]:    glossary.md#turn

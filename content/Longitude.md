@@ -152,6 +152,77 @@ Language        | Type      | Symbol
 
 ## Methods
 
+## Schema
+
+=== "Flat Buffers"
+
+    ```protobuf
+    struct Longitude {
+      angle: Angle;
+    }
+    ```
+
+=== "Joi"
+
+    ```javascript
+    Joi.number().min(-180).max(180)
+    ```
+
+=== "JSON Schema"
+
+    ```json
+    {
+      "type": "number",
+      "minimum": -180,
+      "maximum": 180
+    }
+    ```
+
+=== "OWL"
+
+    ```turtle
+    dogma:Longitude
+      a owl:DatatypeProperty ;
+      rdfs:range xsd:double .
+
+    []
+      a owl:Restriction ;
+      owl:onProperty dogma:Longitude ;
+      owl:someValuesFrom [
+        a rdfs:Datatype ;
+        owl:onDatatype xsd:double ;
+        owl:withRestrictions (
+          [xsd:minInclusive "-180"^^xsd:double]
+          [xsd:maxInclusive "180"^^xsd:double]
+        )
+      ] .
+    ```
+
+=== "Protocol Buffers"
+
+    ```protobuf
+    message Longitude {
+      Angle angle = 1;
+    }
+    ```
+
+=== "SQL"
+
+    ```sql
+    longitude DOUBLE PRECISION  -- in degrees from -180° to 180°
+    ```
+
+=== "XML Schema"
+
+    ```xml
+    <xs:simpleType name="Longitude">
+      <xs:restriction base="xs:double">
+        <xs:minInclusive value="-180"/>
+        <xs:maxInclusive value="180"/>
+      </xs:restriction>
+    </xs:simpleType>
+    ```
+
 [C]:        https://github.com/dogmatists/dogma.c/blob/master/dogma/longitude.h
 [C++]:      https://github.com/dogmatists/dogma.cpp/blob/master/dogma/longitude.hpp
 [Dart]:     https://github.com/dogmatists/dogma.dart/blob/master/lib/src/longitude.dart
