@@ -1,0 +1,36 @@
+// This is free and unencumbered software released into the public domain.
+
+#pragma once
+
+/**
+ * @file
+ *
+ * Dogma for C.
+ *
+ * @see https://github.com/dogmatists/dogma.c
+ */
+
+#ifndef __cplusplus
+#if __STDC_VERSION__ < 201103L
+#error "<dogma.h> requires a C11 or newer compiler (CFLAGS='-std=c11')"
+#endif
+#endif
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#include <errno.h>    // for errno, EDOM
+#include <stdbool.h>  // for bool
+#include <stddef.h>   // for size_t
+#include <stdint.h>   // for {u,}int*_t
+
+#include "dogma/version.h"
+#include "dogma/math.h"
+#include "dogma/angle.h"
+#include "dogma/latitude.h"
+#include "dogma/longitude.h"
+
+#ifdef __cplusplus
+}  // extern "C"
+#endif

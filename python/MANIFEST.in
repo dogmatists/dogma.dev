@@ -1,0 +1,6 @@
+include AUTHORS
+include CHANGES.md
+include CREDITS.md
+include README.md
+include UNLICENSE
+include VERSION

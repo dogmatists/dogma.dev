@@ -1,51 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://dogma.dev/index.html</loc>
-     <lastmod>2020-08-02</lastmod>
+     <lastmod>2020-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://dogma.dev/install.html</loc>
-     <lastmod>2020-08-02</lastmod>
+     <lastmod>2020-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://dogma.dev/start.html</loc>
-     <lastmod>2020-08-02</lastmod>
+     <lastmod>2020-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://dogma.dev/concepts.html</loc>
-     <lastmod>2020-08-02</lastmod>
+     <lastmod>2020-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://dogma.dev/learn.html</loc>
-     <lastmod>2020-08-02</lastmod>
+     <lastmod>2020-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://dogma.dev/faq.html</loc>
-     <lastmod>2020-08-02</lastmod>
+     <lastmod>2020-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://dogma.dev/history.html</loc>
-     <lastmod>2020-08-02</lastmod>
+     <lastmod>2020-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://dogma.dev/glossary.html</loc>
-     <lastmod>2020-08-02</lastmod>
+     <lastmod>2020-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://dogma.dev/license.html</loc>
-     <lastmod>2020-08-02</lastmod>
+     <lastmod>2020-08-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://dogma.dev/c/index.html</loc>
+     <lastmod>2020-08-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://dogma.dev/cpp/index.html</loc>
+     <lastmod>2020-08-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://dogma.dev/dart/index.html</loc>
+     <lastmod>2020-08-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://dogma.dev/protobuf/index.html</loc>
+     <lastmod>2020-08-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://dogma.dev/python/index.html</loc>
+     <lastmod>2020-08-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://dogma.dev/ruby/index.html</loc>
+     <lastmod>2020-08-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://dogma.dev/zig/index.html</loc>
+     <lastmod>2020-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://dogma.dev/Angle.html</loc>
-     <lastmod>2020-08-02</lastmod>
+     <lastmod>2020-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://dogma.dev/Latitude.html</loc>
-     <lastmod>2020-08-02</lastmod>
+     <lastmod>2020-08-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://dogma.dev/Location.html</loc>
+     <lastmod>2020-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://dogma.dev/Longitude.html</loc>
-     <lastmod>2020-08-02</lastmod>
+     <lastmod>2020-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>

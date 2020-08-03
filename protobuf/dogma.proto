@@ -1,0 +1,32 @@
+// This is free and unencumbered software released into the public domain.
+
+syntax = "proto3";
+
+package dogma;
+
+/**
+ * An angle.
+ *
+ * See: https://dogma.dev/Angle
+ */
+message Angle {
+  double radians = 1;
+}
+
+/**
+ * A latitude.
+ *
+ * See: https://dogma.dev/Latitude
+ */
+message Latitude {
+  Angle angle = 1;
+}
+
+/**
+ * A longitude.
+ *
+ * @see https://dogma.dev/Longitude
+ */
+message Longitude {
+  Angle angle = 1;
+}

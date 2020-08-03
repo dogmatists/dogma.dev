@@ -1,0 +1,16 @@
+// This is free and unencumbered software released into the public domain.
+
+syntax = "proto3";
+
+package dogma;
+
+import "angle.proto";
+
+/**
+ * A latitude.
+ *
+ * See: https://dogma.dev/Latitude
+ */
+message Latitude {
+  Angle angle = 1;
+}

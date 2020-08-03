@@ -1,0 +1,9 @@
+// This is free and unencumbered software released into the public domain.
+
+syntax = "proto3";
+
+package dogma;
+
+import "src/angle.proto";
+import "src/latitude.proto";
+import "src/longitude.proto";

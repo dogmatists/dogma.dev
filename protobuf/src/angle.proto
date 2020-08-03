@@ -1,0 +1,14 @@
+// This is free and unencumbered software released into the public domain.
+
+syntax = "proto3";
+
+package dogma;
+
+/**
+ * An angle.
+ *
+ * See: https://dogma.dev/Angle
+ */
+message Angle {
+  double radians = 1;
+}
