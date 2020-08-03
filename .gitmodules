@@ -1,0 +1,21 @@
+[submodule "content/c"]
+	path = content/c
+	url = https://github.com/dogmatists/dogma.c.git
+[submodule "content/cpp"]
+	path = content/cpp
+	url = https://github.com/dogmatists/dogma.cpp.git
+[submodule "content/dart"]
+	path = content/dart
+	url = https://github.com/dogmatists/dogma.dart.git
+[submodule "content/protobuf"]
+	path = content/protobuf
+	url = https://github.com/dogmatists/dogma.pb.git
+[submodule "content/python"]
+	path = content/python
+	url = https://github.com/dogmatists/dogma.py.git
+[submodule "content/ruby"]
+	path = content/ruby
+	url = https://github.com/dogmatists/dogma.rb.git
+[submodule "content/zig"]
+	path = content/zig
+	url = https://github.com/dogmatists/dogma.zig.git
