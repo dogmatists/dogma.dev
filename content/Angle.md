@@ -321,9 +321,36 @@ Angles are represented using [radians], but can be constructed from radians,
     </xs:simpleType>
     ```
 
+## Serialization
+
+=== "JSON"
+
+    ```json
+    0.0                 //   0° in radians
+    1.5707963267948966  //  90° in radians (0.5π)
+    3.141592653589793   // 180° in radians (π)
+    4.71238898038469    // 270° in radians (1.5π)
+    6.283185307179586   // 360° in radians (2π)
+    ```
+
+=== "JSON-LD"
+
+    ```json
+    // TODO
+    ```
+
+=== "XML"
+
+    ```xml
+    <!-- TODO -->
+    ```
+
+## FAQs
+
 ## References
 
 - [en.wikipedia.org/wiki/Angle](https://en.wikipedia.org/wiki/Angle)
+- [en.wikipedia.org/wiki/Degree_symbol](https://en.wikipedia.org/wiki/Degree_symbol)
 
 [degrees]:  glossary.md#degree
 [radians]:  glossary.md#radian

@@ -15,7 +15,7 @@ classDiagram
       +turns() double
     }
     class Latitude
-    Angle <|-- Latitude : extends
+    Latitude --|> Angle : extends
 ```
 
 ## Summary
@@ -115,37 +115,37 @@ Language        | Type      | Symbol
 === "C"
 
     ```c
-    Latitude(90)
+    Latitude(27.9881)
     ```
 
 === "C++"
 
     ```c++
-    Latitude{90}
+    Latitude{27.9881}
     ```
 
 === "Dart"
 
     ```dart
-    Latitude(90)
+    Latitude(27.9881)
     ```
 
 === "Python"
 
     ```python
-    Latitude(90)
+    Latitude(27.9881)
     ```
 
 === "Ruby"
 
     ```ruby
-    Latitude.new(90)
+    Latitude.new(27.9881)
     ```
 
 === "Zig"
 
     ```zig
-    Latitude.init(90)
+    Latitude.init(27.9881)
     ```
 
 ## Properties
@@ -222,6 +222,28 @@ Language        | Type      | Symbol
       </xs:restriction>
     </xs:simpleType>
     ```
+
+## Serialization
+
+=== "JSON"
+
+    ```json
+    27.9881  // Latitude of Mt. Everest
+    ```
+
+=== "JSON-LD"
+
+    ```json
+    // TODO
+    ```
+
+=== "XML"
+
+    ```xml
+    <!-- TODO -->
+    ```
+
+## FAQs
 
 ## References
 

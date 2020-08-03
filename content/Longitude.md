@@ -15,7 +15,7 @@ classDiagram
       +turns() double
     }
     class Longitude
-    Angle <|-- Longitude : extends
+    Longitude --|> Angle : extends
 ```
 
 ## Summary
@@ -115,37 +115,37 @@ Language        | Type      | Symbol
 === "C"
 
     ```c
-    Longitude(180)
+    Longitude(86.9250)
     ```
 
 === "C++"
 
     ```c++
-    Longitude{180}
+    Longitude{86.9250}
     ```
 
 === "Dart"
 
     ```dart
-    Longitude(180)
+    Longitude(86.9250)
     ```
 
 === "Python"
 
     ```python
-    Longitude(180)
+    Longitude(86.9250)
     ```
 
 === "Ruby"
 
     ```ruby
-    Longitude.new(180)
+    Longitude.new(86.9250)
     ```
 
 === "Zig"
 
     ```zig
-    Longitude.init(180)
+    Longitude.init(86.9250)
     ```
 
 ## Properties
@@ -222,6 +222,28 @@ Language        | Type      | Symbol
       </xs:restriction>
     </xs:simpleType>
     ```
+
+## Serialization
+
+=== "JSON"
+
+    ```json
+    86.9250  // Longitude of Mt. Everest
+    ```
+
+=== "JSON-LD"
+
+    ```json
+    // TODO
+    ```
+
+=== "XML"
+
+    ```xml
+    <!-- TODO -->
+    ```
+
+## FAQs
 
 ## References
 
