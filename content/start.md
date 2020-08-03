@@ -8,13 +8,14 @@ title: "Dogma: Getting Started"
 
 Language        | Code
 :---------------| --------------------------------------------------------------
-[C][]           | `#include <dogma.h>`
-[C++][]         | `#include <dogma.hpp>`
-[Dart][]        | `import 'package:dogma/dogma.dart';`
-[Protobuf][]    | `import "dogma.proto";`
-[Python][]      | `import dogma`
-[Ruby][]        | `require 'dogma'`
-[Zig][]         | `const dogma = @import("dogma");`
+[C]             | `#include <dogma.h>`
+[C++]           | `#include <dogma.hpp>`
+[Dart]          | `import 'package:dogma/dogma.dart';`
+[Protobuf]      | `import "dogma.proto";`
+[Python]        | `import dogma`
+[Ruby]          | `require 'dogma'`
+[Rust]          | `extern crate dogma;`
+[Zig]           | `const dogma = @import("dogma");`
 
 [C]:        https://github.com/dogmatists/dogma.c
 [C++]:      https://github.com/dogmatists/dogma.cpp
@@ -22,6 +23,7 @@ Language        | Code
 [Protobuf]: https://github.com/dogmatists/dogma.pb
 [Python]:   https://github.com/dogmatists/dogma.py
 [Ruby]:     https://github.com/dogmatists/dogma.rb
+[Rust]:     https://github.com/dogmatists/dogma.rs
 [Zig]:      https://github.com/dogmatists/dogma.zig
 
 ## Loading the library
@@ -62,6 +64,12 @@ Language        | Code
     require 'dogma'
     ```
 
+=== "Rust"
+
+    ```rust
+    extern crate dogma;
+    ```
+
 === "Zig"
 
     ```zig
@@ -100,6 +108,12 @@ Language        | Code
 
     ```ruby
     # TODO
+    ```
+
+=== "Rust"
+
+    ```rust
+    // TODO
     ```
 
 === "Zig"

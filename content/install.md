@@ -8,13 +8,14 @@ title: "Dogma: Installation"
 
 Language        | Command
 :---------------| --------------------------------------------------------------
-[C][]           | `git clone https://github.com/dogmatists/dogma.c.git`
-[C++][]         | `git clone https://github.com/dogmatists/dogma.cpp.git`
-[Dart][]        | `dependencies:↵  dogma: ^0.0.0`
-[Protobuf][]    | `git clone https://github.com/dogmatists/dogma.pb.git`
-[Python][]      | `pip3 install dogma.py`
-[Ruby][]        | `gem install dogma.rb`
-[Zig][]         | `git clone https://github.com/dogmatists/dogma.zig.git`
+[C]             | `git clone https://github.com/dogmatists/dogma.c.git`
+[C++]           | `git clone https://github.com/dogmatists/dogma.cpp.git`
+[Dart]          | `dependencies:↵  dogma: ^0.0.0`
+[Protobuf]      | `git clone https://github.com/dogmatists/dogma.pb.git`
+[Python]        | `pip3 install dogma.py`
+[Ruby]          | `gem install dogma.rb`
+[Rust]          | `cargo install dogma`
+[Zig]           | `git clone https://github.com/dogmatists/dogma.zig.git`
 
 [C]:        https://github.com/dogmatists/dogma.c
 [C++]:      https://github.com/dogmatists/dogma.cpp
@@ -22,6 +23,7 @@ Language        | Command
 [Protobuf]: https://github.com/dogmatists/dogma.pb
 [Python]:   https://github.com/dogmatists/dogma.py
 [Ruby]:     https://github.com/dogmatists/dogma.rb
+[Rust]:     https://github.com/dogmatists/dogma.rs
 [Zig]:      https://github.com/dogmatists/dogma.zig
 
 ## Installing from Git
@@ -60,6 +62,12 @@ Language        | Command
 
     ```bash
     git clone https://github.com/dogmatists/dogma.rb.git
+    ```
+
+=== "Rust"
+
+    ```bash
+    git clone https://github.com/dogmatists/dogma.rs.git
     ```
 
 === "Zig"

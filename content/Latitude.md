@@ -28,6 +28,7 @@ Language        | Type      | Symbol
 [Protobuf]      | message   | `dogma.Latitude`
 [Python]        | class     | `dogma.Latitude`
 [Ruby]          | class     | `Dogma::Latitude`
+[Rust]          | struct    | `dogma::Latitude`
 [Zig]           | struct    | `dogma.Latitude`
 
 ## Description
@@ -64,6 +65,12 @@ Language        | Type      | Symbol
 
     ```ruby
     
+    ```
+
+=== "Rust"
+
+    ```rust
+    // TODO
     ```
 
 === "Zig"
@@ -104,6 +111,12 @@ Language        | Type      | Symbol
     
     ```
 
+=== "Rust"
+
+    ```rust
+    // TODO
+    ```
+
 === "Zig"
 
     ```zig
@@ -140,6 +153,12 @@ Language        | Type      | Symbol
 
     ```ruby
     Latitude.new(27.9881)
+    ```
+
+=== "Rust"
+
+    ```rust
+    Latitude::new(27.9881)
     ```
 
 === "Zig"
@@ -256,4 +275,5 @@ Language        | Type      | Symbol
 [Protobuf]: https://github.com/dogmatists/dogma.pb/blob/master/src/latitude.proto
 [Python]:   https://github.com/dogmatists/dogma.py/blob/master/src/dogma/latitude.py
 [Ruby]:     https://github.com/dogmatists/dogma.rb/blob/master/lib/dogma/latitude.rb
+[Rust]:     https://github.com/dogmatists/dogma.rs/blob/master/src/latitude.rs
 [Zig]:      https://github.com/dogmatists/dogma.zig/blob/master/src/latitude.zig

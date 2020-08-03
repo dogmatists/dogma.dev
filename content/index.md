@@ -60,6 +60,12 @@ GitHub][] and follow the author [on Twitter][] for project announcements.
     gem install dogma.rb
     ```
 
+=== "Rust"
+
+    ```rust
+    cargo install dogma
+    ```
+
 === "Zig"
 
     ```bash
@@ -104,6 +110,12 @@ For more detailed instructions, see the [Installation](install.md) chapter.
 
     ```ruby
     require 'dogma'
+    ```
+
+=== "Rust"
+
+    ```rust
+    extern crate dogma;
     ```
 
 === "Zig"

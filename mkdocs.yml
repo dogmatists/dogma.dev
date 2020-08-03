@@ -34,6 +34,7 @@ nav:
       - Protobuf: protobuf/README.md
       - Python: python/README.md
       - Ruby: ruby/README.md
+      - Rust: rust/README.md
       - Zig: zig/README.md
   - Reference:
       - Angle: Angle.md

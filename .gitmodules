@@ -16,6 +16,9 @@
 [submodule "content/ruby"]
 	path = content/ruby
 	url = https://github.com/dogmatists/dogma.rb.git
+[submodule "content/rust"]
+	path = content/rust
+	url = https://github.com/dogmatists/dogma.rs.git
 [submodule "content/zig"]
 	path = content/zig
 	url = https://github.com/dogmatists/dogma.zig.git

@@ -30,6 +30,7 @@ Language        | Type      | Symbol
 [Protobuf]      | message   | `dogma.Location`
 [Python]        | class     | `dogma.Location`
 [Ruby]          | class     | `Dogma::Location`
+[Rust]          | struct    | `dogma::Location`
 [Zig]           | struct    | `dogma.Location`
 
 ## Description
@@ -66,6 +67,12 @@ Language        | Type      | Symbol
 
     ```ruby
     Location.new(27.9881, 86.9250)
+    ```
+
+=== "Rust"
+
+    ```rust
+    Location::new(27.9881, 86.9250)
     ```
 
 === "Zig"
@@ -186,4 +193,5 @@ Language        | Type      | Symbol
 [Protobuf]: https://github.com/dogmatists/dogma.pb/blob/master/src/location.proto
 [Python]:   https://github.com/dogmatists/dogma.py/blob/master/src/dogma/location.py
 [Ruby]:     https://github.com/dogmatists/dogma.rb/blob/master/lib/dogma/location.rb
+[Rust]:     https://github.com/dogmatists/dogma.rs/blob/master/src/location.rs
 [Zig]:      https://github.com/dogmatists/dogma.zig/blob/master/src/location.zig

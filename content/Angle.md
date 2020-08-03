@@ -26,6 +26,7 @@ Language        | Type      | Symbol
 [Protobuf]      | message   | `dogma.Angle`
 [Python]        | class     | `dogma.Angle`
 [Ruby]          | class     | `Dogma::Angle`
+[Rust]          | struct    | `dogma::Angle`
 [Zig]           | struct    | `dogma.Angle`
 
 ## Description
@@ -69,6 +70,12 @@ Angles are represented using [radians], but can be constructed from radians,
     Angle.new(degrees: 180)
     ```
 
+=== "Rust"
+
+    ```rust
+    Angle::from_degrees(180)
+    ```
+
 === "Zig"
 
     ```zig
@@ -107,6 +114,12 @@ Angles are represented using [radians], but can be constructed from radians,
     Angle.new(radians: Math::PI)
     ```
 
+=== "Rust"
+
+    ```rust
+    Angle::from_radians(std::f64::consts::PI)
+    ```
+
 === "Zig"
 
     ```zig
@@ -143,6 +156,12 @@ Angles are represented using [radians], but can be constructed from radians,
 
     ```ruby
     Angle.new(turns: 0.5)
+    ```
+
+=== "Rust"
+
+    ```rust
+    Angle::from_turns(0.5)
     ```
 
 === "Zig"
@@ -185,6 +204,12 @@ Angles are represented using [radians], but can be constructed from radians,
     angle.degrees
     ```
 
+=== "Rust"
+
+    ```rust
+    angle.degrees()
+    ```
+
 === "Zig"
 
     ```zig
@@ -223,6 +248,12 @@ Angles are represented using [radians], but can be constructed from radians,
     angle.radians
     ```
 
+=== "Rust"
+
+    ```rust
+    angle.radians()
+    ```
+
 === "Zig"
 
     ```zig
@@ -259,6 +290,12 @@ Angles are represented using [radians], but can be constructed from radians,
 
     ```ruby
     angle.turns
+    ```
+
+=== "Rust"
+
+    ```rust
+    angle.turns()
     ```
 
 === "Zig"
@@ -363,4 +400,5 @@ Angles are represented using [radians], but can be constructed from radians,
 [Protobuf]: https://github.com/dogmatists/dogma.pb/blob/master/src/angle.proto
 [Python]:   https://github.com/dogmatists/dogma.py/blob/master/src/dogma/angle.py
 [Ruby]:     https://github.com/dogmatists/dogma.rb/blob/master/lib/dogma/angle.rb
+[Rust]:     https://github.com/dogmatists/dogma.rs/blob/master/src/angle.rs
 [Zig]:      https://github.com/dogmatists/dogma.zig/blob/master/src/angle.zig

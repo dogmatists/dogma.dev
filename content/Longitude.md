@@ -28,6 +28,7 @@ Language        | Type      | Symbol
 [Protobuf]      | message   | `dogma.Longitude`
 [Python]        | class     | `dogma.Longitude`
 [Ruby]          | class     | `Dogma::Longitude`
+[Rust]          | struct    | `dogma::Longitude`
 [Zig]           | struct    | `dogma.Longitude`
 
 ## Description
@@ -64,6 +65,12 @@ Language        | Type      | Symbol
 
     ```ruby
     
+    ```
+
+=== "Rust"
+
+    ```rust
+    // TODO
     ```
 
 === "Zig"
@@ -104,6 +111,12 @@ Language        | Type      | Symbol
     
     ```
 
+=== "Rust"
+
+    ```rust
+    // TODO
+    ```
+
 === "Zig"
 
     ```zig
@@ -140,6 +153,12 @@ Language        | Type      | Symbol
 
     ```ruby
     Longitude.new(86.9250)
+    ```
+
+=== "Rust"
+
+    ```rust
+    Longitude::new(86.9250)
     ```
 
 === "Zig"
@@ -256,4 +275,5 @@ Language        | Type      | Symbol
 [Protobuf]: https://github.com/dogmatists/dogma.pb/blob/master/src/longitude.proto
 [Python]:   https://github.com/dogmatists/dogma.py/blob/master/src/dogma/longitude.py
 [Ruby]:     https://github.com/dogmatists/dogma.rb/blob/master/lib/dogma/longitude.rb
+[Rust]:     https://github.com/dogmatists/dogma.rs/blob/master/src/longitude.rs
 [Zig]:      https://github.com/dogmatists/dogma.zig/blob/master/src/longitude.zig
