@@ -1,0 +1,15 @@
+[package]
+name = "dogma"
+version = "0.0.0"
+authors = ["Arto Bendiken <arto@bendiken.net>"]
+edition = "2018"
+description = "Dogma for Rust"
+documentation = "https://dogma.dev/rust/"
+readme = "README.md"
+homepage = "https://github.com/dogmatists/dogma.rs"
+repository = "https://github.com/dogmatists/dogma.rs"
+license = "Unlicense"
+keywords = ["dogma", "library", "no-std", "polyglot"]
+categories = ["data-structures", "mathematics", "no-std"]
+
+[dependencies]

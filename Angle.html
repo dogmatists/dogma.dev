@@ -205,6 +205,11 @@
     </a>
 </li>
 <li class="md-nav__item">
+<a class="md-nav__link" href="rust/index.html" title="Rust">
+      Rust
+    </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="zig/index.html" title="Zig">
       Zig
     </a>
@@ -530,6 +535,11 @@
 <td align="left"><code>Dogma::Angle</code></td>
 </tr>
 <tr>
+<td align="left"><a href="https://github.com/dogmatists/dogma.rs/blob/master/src/angle.rs">Rust</a></td>
+<td align="left">struct</td>
+<td align="left"><code>dogma::Angle</code></td>
+</tr>
+<tr>
 <td align="left"><a href="https://github.com/dogmatists/dogma.zig/blob/master/src/angle.zig">Zig</a></td>
 <td align="left">struct</td>
 <td align="left"><code>dogma.Angle</code></td>
@@ -542,7 +552,7 @@
 <h2 id="constants">Constants<a class="headerlink" href="#constants" title="Permanent link">¶</a></h2>
 <h2 id="constructor">Constructor<a class="headerlink" href="#constructor" title="Permanent link">¶</a></h2>
 <h3 id="from-degrees">From degrees<a class="headerlink" href="#from-degrees" title="Permanent link">¶</a></h3>
-<div class="tabbed-set" data-tabs="1:6"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio"><label for="__tabbed_1_1">C</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="1:7"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio"><label for="__tabbed_1_1">C</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="n">AngleFromDegrees</span><span class="p">(</span><span class="mi">180</span><span class="p">)</span>
 </code></pre></div>
 </div>
@@ -562,13 +572,17 @@
 <div class="highlight"><pre><span></span><code><span class="no">Angle</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="ss">degrees</span><span class="p">:</span> <span class="mi">180</span><span class="p">)</span>
 </code></pre></div>
 </div>
-<input id="__tabbed_1_6" name="__tabbed_1" type="radio"><label for="__tabbed_1_6">Zig</label><div class="tabbed-content">
+<input id="__tabbed_1_6" name="__tabbed_1" type="radio"><label for="__tabbed_1_6">Rust</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">Angle</span>::<span class="n">from_degrees</span><span class="p">(</span><span class="mi">180</span><span class="p">)</span><span class="w"></span>
+</code></pre></div>
+</div>
+<input id="__tabbed_1_7" name="__tabbed_1" type="radio"/><label for="__tabbed_1_7">Zig</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="n">Angle</span><span class="p">.</span><span class="n">fromDegrees</span><span class="p">(</span><span class="mi">180</span><span class="p">)</span><span class="w"></span>
 </code></pre></div>
 </div>
 </input></input></input></input></input></input></div>
 <h3 id="from-radians">From radians<a class="headerlink" href="#from-radians" title="Permanent link">¶</a></h3>
-<div class="tabbed-set" data-tabs="2:6"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio"/><label for="__tabbed_2_1">C</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="2:7"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio"/><label for="__tabbed_2_1">C</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="n">AngleFromRadians</span><span class="p">(</span><span class="n">M_PI</span><span class="p">)</span>
 </code></pre></div>
 </div>
@@ -588,13 +602,17 @@
 <div class="highlight"><pre><span></span><code><span class="no">Angle</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="ss">radians</span><span class="p">:</span> <span class="no">Math</span><span class="o">::</span><span class="no">PI</span><span class="p">)</span>
 </code></pre></div>
 </div>
-<input id="__tabbed_2_6" name="__tabbed_2" type="radio"/><label for="__tabbed_2_6">Zig</label><div class="tabbed-content">
+<input id="__tabbed_2_6" name="__tabbed_2" type="radio"/><label for="__tabbed_2_6">Rust</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">Angle</span>::<span class="n">from_radians</span><span class="p">(</span><span class="n">std</span>::<span class="kt">f64</span>::<span class="n">consts</span>::<span class="n">PI</span><span class="p">)</span><span class="w"></span>
+</code></pre></div>
+</div>
+<input id="__tabbed_2_7" name="__tabbed_2" type="radio"/><label for="__tabbed_2_7">Zig</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="n">Angle</span><span class="p">.</span><span class="n">fromRadians</span><span class="p">(</span><span class="n">std</span><span class="p">.</span><span class="n">math</span><span class="p">.</span><span class="n">pi</span><span class="p">)</span><span class="w"></span>
 </code></pre></div>
 </div>
 </div>
 <h3 id="from-turns">From turns<a class="headerlink" href="#from-turns" title="Permanent link">¶</a></h3>
-<div class="tabbed-set" data-tabs="3:6"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio"/><label for="__tabbed_3_1">C</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="3:7"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio"/><label for="__tabbed_3_1">C</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="n">AngleFromTurns</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
 </code></pre></div>
 </div>
@@ -614,14 +632,18 @@
 <div class="highlight"><pre><span></span><code><span class="no">Angle</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="ss">turns</span><span class="p">:</span> <span class="mi">0</span><span class="o">.</span><span class="mi">5</span><span class="p">)</span>
 </code></pre></div>
 </div>
-<input id="__tabbed_3_6" name="__tabbed_3" type="radio"/><label for="__tabbed_3_6">Zig</label><div class="tabbed-content">
+<input id="__tabbed_3_6" name="__tabbed_3" type="radio"/><label for="__tabbed_3_6">Rust</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">Angle</span>::<span class="n">from_turns</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span><span class="w"></span>
+</code></pre></div>
+</div>
+<input id="__tabbed_3_7" name="__tabbed_3" type="radio"/><label for="__tabbed_3_7">Zig</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="n">Angle</span><span class="p">.</span><span class="n">fromTurns</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span><span class="w"></span>
 </code></pre></div>
 </div>
 </div>
 <h2 id="properties">Properties<a class="headerlink" href="#properties" title="Permanent link">¶</a></h2>
 <h3 id="degrees"><code>degrees</code><a class="headerlink" href="#degrees" title="Permanent link">¶</a></h3>
-<div class="tabbed-set" data-tabs="4:6"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio"/><label for="__tabbed_4_1">C</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="4:7"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio"/><label for="__tabbed_4_1">C</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="n">AngleToDegrees</span><span class="p">(</span><span class="n">angle</span><span class="p">)</span>
 </code></pre></div>
 </div>
@@ -641,13 +663,17 @@
 <div class="highlight"><pre><span></span><code><span class="n">angle</span><span class="o">.</span><span class="n">degrees</span>
 </code></pre></div>
 </div>
-<input id="__tabbed_4_6" name="__tabbed_4" type="radio"/><label for="__tabbed_4_6">Zig</label><div class="tabbed-content">
+<input id="__tabbed_4_6" name="__tabbed_4" type="radio"/><label for="__tabbed_4_6">Rust</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">angle</span><span class="p">.</span><span class="n">degrees</span><span class="p">()</span><span class="w"></span>
+</code></pre></div>
+</div>
+<input id="__tabbed_4_7" name="__tabbed_4" type="radio"/><label for="__tabbed_4_7">Zig</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="n">angle</span><span class="p">.</span><span class="n">degrees</span><span class="p">()</span><span class="w"></span>
 </code></pre></div>
 </div>
 </div>
 <h3 id="radians"><code>radians</code><a class="headerlink" href="#radians" title="Permanent link">¶</a></h3>
-<div class="tabbed-set" data-tabs="5:6"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio"/><label for="__tabbed_5_1">C</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="5:7"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio"/><label for="__tabbed_5_1">C</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="n">AngleToRadians</span><span class="p">(</span><span class="n">angle</span><span class="p">)</span>
 </code></pre></div>
 </div>
@@ -667,13 +693,17 @@
 <div class="highlight"><pre><span></span><code><span class="n">angle</span><span class="o">.</span><span class="n">radians</span>
 </code></pre></div>
 </div>
-<input id="__tabbed_5_6" name="__tabbed_5" type="radio"/><label for="__tabbed_5_6">Zig</label><div class="tabbed-content">
+<input id="__tabbed_5_6" name="__tabbed_5" type="radio"/><label for="__tabbed_5_6">Rust</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">angle</span><span class="p">.</span><span class="n">radians</span><span class="p">()</span><span class="w"></span>
+</code></pre></div>
+</div>
+<input id="__tabbed_5_7" name="__tabbed_5" type="radio"/><label for="__tabbed_5_7">Zig</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="n">angle</span><span class="p">.</span><span class="n">radians</span><span class="p">()</span><span class="w"></span>
 </code></pre></div>
 </div>
 </div>
 <h3 id="turns"><code>turns</code><a class="headerlink" href="#turns" title="Permanent link">¶</a></h3>
-<div class="tabbed-set" data-tabs="6:6"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio"/><label for="__tabbed_6_1">C</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="6:7"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio"/><label for="__tabbed_6_1">C</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="n">AngleToTurns</span><span class="p">(</span><span class="n">angle</span><span class="p">)</span>
 </code></pre></div>
 </div>
@@ -693,7 +723,11 @@
 <div class="highlight"><pre><span></span><code><span class="n">angle</span><span class="o">.</span><span class="n">turns</span>
 </code></pre></div>
 </div>
-<input id="__tabbed_6_6" name="__tabbed_6" type="radio"/><label for="__tabbed_6_6">Zig</label><div class="tabbed-content">
+<input id="__tabbed_6_6" name="__tabbed_6" type="radio"/><label for="__tabbed_6_6">Rust</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">angle</span><span class="p">.</span><span class="n">turns</span><span class="p">()</span><span class="w"></span>
+</code></pre></div>
+</div>
+<input id="__tabbed_6_7" name="__tabbed_6" type="radio"/><label for="__tabbed_6_7">Zig</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="n">angle</span><span class="p">.</span><span class="n">turns</span><span class="p">()</span><span class="w"></span>
 </code></pre></div>
 </div>
@@ -760,6 +794,7 @@
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Angle">en.wikipedia.org/wiki/Angle</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Degree_symbol">en.wikipedia.org/wiki/Degree_symbol</a></li>
+<li><a href="https://mathworld.wolfram.com/Angle.html">mathworld.wolfram.com/Angle.html</a></li>
 </ul>
 </article>
 </div>

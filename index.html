@@ -232,6 +232,11 @@
     </a>
 </li>
 <li class="md-nav__item">
+<a class="md-nav__link" href="rust/index.html" title="Rust">
+      Rust
+    </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="zig/index.html" title="Zig">
       Zig
     </a>
@@ -327,7 +332,7 @@ It is unlikely to be particularly useful as yet to anyone but its authors.</p>
 <p>If you are interested in the project, you can keep tabs on development <a href="https://github.com/artob">at
 GitHub</a> and follow the author <a href="https://twitter.com/bendiken">on Twitter</a> for project announcements.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">¶</a></h2>
-<div class="tabbed-set" data-tabs="1:7"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio"><label for="__tabbed_1_1">C</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="1:8"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio"><label for="__tabbed_1_1">C</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>git clone https://github.com/dogmatists/dogma.c.git
 </code></pre></div>
 </div>
@@ -352,14 +357,18 @@ GitHub</a> and follow the author <a href="https://twitter.com/bendiken">on Twitt
 <div class="highlight"><pre><span></span><code>gem install dogma.rb
 </code></pre></div>
 </div>
-<input id="__tabbed_1_7" name="__tabbed_1" type="radio"/><label for="__tabbed_1_7">Zig</label><div class="tabbed-content">
+<input id="__tabbed_1_7" name="__tabbed_1" type="radio"/><label for="__tabbed_1_7">Rust</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">cargo</span><span class="w"> </span><span class="n">install</span><span class="w"> </span><span class="n">dogma</span><span class="w"></span>
+</code></pre></div>
+</div>
+<input id="__tabbed_1_8" name="__tabbed_1" type="radio"/><label for="__tabbed_1_8">Zig</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>git clone https://github.com/dogmatists/dogma.zig.git
 </code></pre></div>
 </div>
 </input></input></input></input></input></input></div>
 <p>For more detailed instructions, see the <a href="install.html">Installation</a> chapter.</p>
 <h2 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link">¶</a></h2>
-<div class="tabbed-set" data-tabs="2:7"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio"/><label for="__tabbed_2_1">C</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="2:8"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio"/><label for="__tabbed_2_1">C</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="cp">#include</span> <span class="cpf">&lt;dogma.h&gt;</span><span class="cp"></span>
 </code></pre></div>
 </div>
@@ -383,7 +392,11 @@ GitHub</a> and follow the author <a href="https://twitter.com/bendiken">on Twitt
 <div class="highlight"><pre><span></span><code><span class="nb">require</span> <span class="s1">'dogma'</span>
 </code></pre></div>
 </div>
-<input id="__tabbed_2_7" name="__tabbed_2" type="radio"/><label for="__tabbed_2_7">Zig</label><div class="tabbed-content">
+<input id="__tabbed_2_7" name="__tabbed_2" type="radio"/><label for="__tabbed_2_7">Rust</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="k">extern</span><span class="w"> </span><span class="k">crate</span><span class="w"> </span><span class="n">dogma</span><span class="p">;</span><span class="w"></span>
+</code></pre></div>
+</div>
+<input id="__tabbed_2_8" name="__tabbed_2" type="radio"/><label for="__tabbed_2_8">Zig</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="kr">const</span><span class="w"> </span><span class="n">dogma</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">@import</span><span class="p">(</span><span class="s">"dogma"</span><span class="p">);</span><span class="w"></span>
 </code></pre></div>
 </div>
