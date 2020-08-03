@@ -1,5 +1,5 @@
 # See: https://www.mkdocs.org/user-guide/configuration/
-
+---
 # Site configuration:
 site_name: Dogma
 site_author: Arto Bendiken
@@ -7,6 +7,8 @@ site_url: https://dogma.dev
 repo_name: dogmatists/dogma.dev
 repo_url: https://github.com/dogmatists/dogma.dev
 google_analytics:
+  - UA-83574-22
+  - auto
 
 # Content configuration:
 remote_name: github
@@ -26,18 +28,18 @@ nav:
   - Glossary: glossary.md
   - License: license.md
   - Languages:
-    - C: c/README.md
-    - C++: cpp/README.md
-    - Dart: dart/README.md
-    - Protobuf: protobuf/README.md
-    - Python: python/README.md
-    - Ruby: ruby/README.md
-    - Zig: zig/README.md
+      - C: c/README.md
+      - C++: cpp/README.md
+      - Dart: dart/README.md
+      - Protobuf: protobuf/README.md
+      - Python: python/README.md
+      - Ruby: ruby/README.md
+      - Zig: zig/README.md
   - Reference:
-    - Angle: Angle.md
-    - Latitude: Latitude.md
-    - Location: Location.md
-    - Longitude: Longitude.md
+      - Angle: Angle.md
+      - Latitude: Latitude.md
+      - Location: Location.md
+      - Longitude: Longitude.md
 
 # Theme configuration:
 theme:
@@ -105,7 +107,3 @@ extra:
     - name: Dogma on Twitter
       icon: fontawesome/brands/twitter
       link: https://twitter.com/bendiken
-
-google_analytics:
-  - UA-83574-22
-  - auto
