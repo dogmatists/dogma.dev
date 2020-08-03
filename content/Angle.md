@@ -351,6 +351,7 @@ Angles are represented using [radians], but can be constructed from radians,
 
 - [en.wikipedia.org/wiki/Angle](https://en.wikipedia.org/wiki/Angle)
 - [en.wikipedia.org/wiki/Degree_symbol](https://en.wikipedia.org/wiki/Degree_symbol)
+- [mathworld.wolfram.com/Angle.html](https://mathworld.wolfram.com/Angle.html)
 
 [degrees]:  glossary.md#degree
 [radians]:  glossary.md#radian

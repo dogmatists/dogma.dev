@@ -248,6 +248,7 @@ Language        | Type      | Symbol
 ## References
 
 - [en.wikipedia.org/wiki/Latitude](https://en.wikipedia.org/wiki/Latitude)
+- [mathworld.wolfram.com/Latitude.html](https://mathworld.wolfram.com/Latitude.html)
 
 [C]:        https://github.com/dogmatists/dogma.c/blob/master/dogma/latitude.h
 [C++]:      https://github.com/dogmatists/dogma.cpp/blob/master/dogma/latitude.hpp

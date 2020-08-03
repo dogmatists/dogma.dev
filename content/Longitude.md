@@ -248,6 +248,7 @@ Language        | Type      | Symbol
 ## References
 
 - [en.wikipedia.org/wiki/Longitude](https://en.wikipedia.org/wiki/Longitude)
+- [mathworld.wolfram.com/Longitude.html](https://mathworld.wolfram.com/Longitude.html)
 
 [C]:        https://github.com/dogmatists/dogma.c/blob/master/dogma/longitude.h
 [C++]:      https://github.com/dogmatists/dogma.cpp/blob/master/dogma/longitude.hpp
