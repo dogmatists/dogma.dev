@@ -25,6 +25,14 @@ nav:
   - Release Notes: history.md
   - Glossary: glossary.md
   - License: license.md
+  - Languages:
+    - C: c/README.md
+    - C++: cpp/README.md
+    - Dart: dart/README.md
+    - Protobuf: protobuf/README.md
+    - Python: python/README.md
+    - Ruby: ruby/README.md
+    - Zig: zig/README.md
   - Reference:
     - Angle: Angle.md
     - Latitude: Latitude.md
