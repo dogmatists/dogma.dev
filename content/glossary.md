@@ -34,6 +34,8 @@ title: "Dogma: Glossary"
 
 ## L
 
+### [location](https://en.wikipedia.org/wiki/Location)
+
 ## M
 
 ## N

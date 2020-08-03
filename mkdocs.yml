@@ -36,6 +36,7 @@ nav:
   - Reference:
     - Angle: Angle.md
     - Latitude: Latitude.md
+    - Location: Location.md
     - Longitude: Longitude.md
 
 # Theme configuration:
