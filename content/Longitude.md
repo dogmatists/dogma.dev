@@ -25,6 +25,7 @@ Language        | Type      | Symbol
 [C]             | struct    | `Longitude`
 [C++]           | struct    | `dogma::Longitude`
 [Dart]          | class     | `Longitude`
+[Go]            | struct    | `dogma.Longitude`
 [Protobuf]      | message   | `dogma.Longitude`
 [Python]        | class     | `dogma.Longitude`
 [Ruby]          | class     | `Dogma::Longitude`
@@ -53,6 +54,12 @@ Language        | Type      | Symbol
 
     ```dart
     
+    ```
+
+=== "Go"
+
+    ```go
+    dogma.MaxLongitudeDegrees  // 180
     ```
 
 === "Python"
@@ -99,6 +106,12 @@ Language        | Type      | Symbol
     
     ```
 
+=== "Go"
+
+    ```go
+    dogma.MinLongitudeDegrees  // -180
+    ```
+
 === "Python"
 
     ```python
@@ -141,6 +154,12 @@ Language        | Type      | Symbol
 
     ```dart
     Longitude(86.9250)
+    ```
+
+=== "Go"
+
+    ```go
+    NewLongitude(86.9250)
     ```
 
 === "Python"
@@ -272,6 +291,7 @@ Language        | Type      | Symbol
 [C]:        https://github.com/dogmatists/dogma.c/blob/master/dogma/longitude.h
 [C++]:      https://github.com/dogmatists/dogma.cpp/blob/master/dogma/longitude.hpp
 [Dart]:     https://github.com/dogmatists/dogma.dart/blob/master/lib/src/longitude.dart
+[Go]:       https://github.com/dogmatists/dogma.go/blob/master/dogma/longitude.go
 [Protobuf]: https://github.com/dogmatists/dogma.pb/blob/master/src/longitude.proto
 [Python]:   https://github.com/dogmatists/dogma.py/blob/master/src/dogma/longitude.py
 [Ruby]:     https://github.com/dogmatists/dogma.rb/blob/master/lib/dogma/longitude.rb

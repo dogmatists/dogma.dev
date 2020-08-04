@@ -23,6 +23,7 @@ Language        | Type      | Symbol
 [C]             | struct    | `Angle`
 [C++]           | struct    | `dogma::Angle`
 [Dart]          | class     | `Angle`
+[Go]            | struct    | `dogma.Angle`
 [Protobuf]      | message   | `dogma.Angle`
 [Python]        | class     | `dogma.Angle`
 [Ruby]          | class     | `Dogma::Angle`
@@ -56,6 +57,12 @@ Angles are represented using [radians], but can be constructed from radians,
 
     ```dart
     Angle.fromDegrees(180)
+    ```
+
+=== "Go"
+
+    ```go
+    AngleFromDegrees(180)
     ```
 
 === "Python"
@@ -102,6 +109,12 @@ Angles are represented using [radians], but can be constructed from radians,
     Angle.fromRadians(math.pi)
     ```
 
+=== "Go"
+
+    ```go
+    AngleFromRadians(math.Pi)
+    ```
+
 === "Python"
 
     ```python
@@ -144,6 +157,12 @@ Angles are represented using [radians], but can be constructed from radians,
 
     ```dart
     Angle.fromTurns(0.5)
+    ```
+
+=== "Go"
+
+    ```go
+    AngleFromTurns(0.5)
     ```
 
 === "Python"
@@ -192,6 +211,12 @@ Angles are represented using [radians], but can be constructed from radians,
     angle.degrees
     ```
 
+=== "Go"
+
+    ```go
+    angle.Degrees()
+    ```
+
 === "Python"
 
     ```python
@@ -236,6 +261,12 @@ Angles are represented using [radians], but can be constructed from radians,
     angle.radians
     ```
 
+=== "Go"
+
+    ```go
+    angle.Radians()
+    ```
+
 === "Python"
 
     ```python
@@ -278,6 +309,12 @@ Angles are represented using [radians], but can be constructed from radians,
 
     ```dart
     angle.turns
+    ```
+
+=== "Go"
+
+    ```go
+    angle.Turns()
     ```
 
 === "Python"
@@ -397,6 +434,7 @@ Angles are represented using [radians], but can be constructed from radians,
 [C]:        https://github.com/dogmatists/dogma.c/blob/master/dogma/angle.h
 [C++]:      https://github.com/dogmatists/dogma.cpp/blob/master/dogma/angle.hpp
 [Dart]:     https://github.com/dogmatists/dogma.dart/blob/master/lib/src/angle.dart
+[Go]:       https://github.com/dogmatists/dogma.go/blob/master/dogma/angle.go
 [Protobuf]: https://github.com/dogmatists/dogma.pb/blob/master/src/angle.proto
 [Python]:   https://github.com/dogmatists/dogma.py/blob/master/src/dogma/angle.py
 [Ruby]:     https://github.com/dogmatists/dogma.rb/blob/master/lib/dogma/angle.rb

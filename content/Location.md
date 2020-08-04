@@ -27,6 +27,7 @@ Language        | Type      | Symbol
 [C]             | struct    | `Location`
 [C++]           | struct    | `dogma::Location`
 [Dart]          | class     | `Location`
+[Go]            | struct    | `dogma.Location`
 [Protobuf]      | message   | `dogma.Location`
 [Python]        | class     | `dogma.Location`
 [Ruby]          | class     | `Dogma::Location`
@@ -55,6 +56,12 @@ Language        | Type      | Symbol
 
     ```dart
     Location(27.9881, 86.9250)
+    ```
+
+=== "Go"
+
+    ```go
+    NewLocation(27.9881, 86.9250)
     ```
 
 === "Python"
@@ -190,6 +197,7 @@ Language        | Type      | Symbol
 [C]:        https://github.com/dogmatists/dogma.c/blob/master/dogma/location.h
 [C++]:      https://github.com/dogmatists/dogma.cpp/blob/master/dogma/location.hpp
 [Dart]:     https://github.com/dogmatists/dogma.dart/blob/master/lib/src/location.dart
+[Go]:       https://github.com/dogmatists/dogma.go/blob/master/dogma/location.go
 [Protobuf]: https://github.com/dogmatists/dogma.pb/blob/master/src/location.proto
 [Python]:   https://github.com/dogmatists/dogma.py/blob/master/src/dogma/location.py
 [Ruby]:     https://github.com/dogmatists/dogma.rb/blob/master/lib/dogma/location.rb

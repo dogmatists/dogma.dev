@@ -37,9 +37,15 @@ GitHub][] and follow the author [on Twitter][] for project announcements.
 
 === "Dart"
 
-    ```
+    ```yaml
     dependencies:
       dogma: ^0.0.0
+    ```
+
+=== "Go"
+
+    ```bash
+    go get github.com/dogmatists/dogma.go/dogma
     ```
 
 === "Protobuf"
@@ -92,6 +98,12 @@ For more detailed instructions, see the [Installation](install.md) chapter.
 
     ```dart
     import 'package:dogma/dogma.dart';
+    ```
+
+=== "Go"
+
+    ```go
+    import "github.com/dogmatists/dogma.go/dogma"
     ```
 
 === "Protobuf"

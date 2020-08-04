@@ -31,6 +31,7 @@ nav:
       - C: c/README.md
       - C++: cpp/README.md
       - Dart: dart/README.md
+      - Go: go/README.md
       - Protobuf: protobuf/README.md
       - Python: python/README.md
       - Ruby: ruby/README.md
