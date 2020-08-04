@@ -22,12 +22,12 @@ Language        | Type      | Symbol
 :---------------| :-------- | :-------------------------------------------------
 [C]             | struct    | `Angle`
 [C++]           | struct    | `dogma::Angle`
-[Dart]          | class     | `Angle`
-[Go]            | struct    | `dogma.Angle`
+[Dart]          | class     | [`Angle`](https://pub.dev/documentation/dogma/latest/dogma/Angle-class.html)
+[Go]            | struct    | [`dogma.Angle`](https://godoc.org/github.com/dogmatists/dogma.go/dogma#Angle)
 [Protobuf]      | message   | `dogma.Angle`
 [Python]        | class     | `dogma.Angle`
-[Ruby]          | class     | `Dogma::Angle`
-[Rust]          | struct    | `dogma::Angle`
+[Ruby]          | class     | [`Dogma::Angle`](https://rubydoc.info/github/dogmatists/dogma.rb/master/Dogma/Angle)
+[Rust]          | struct    | [`dogma::Angle`](https://docs.rs/dogma/latest/dogma/struct.Angle.html)
 [Zig]           | struct    | `dogma.Angle`
 
 ## Description

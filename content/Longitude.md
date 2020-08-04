@@ -24,12 +24,12 @@ Language        | Type      | Symbol
 :---------------| :-------- | :-------------------------------------------------
 [C]             | struct    | `Longitude`
 [C++]           | struct    | `dogma::Longitude`
-[Dart]          | class     | `Longitude`
-[Go]            | struct    | `dogma.Longitude`
+[Dart]          | class     | [`Longitude`](https://pub.dev/documentation/dogma/latest/dogma/Longitude-class.html)
+[Go]            | struct    | [`dogma.Longitude`](https://godoc.org/github.com/dogmatists/dogma.go/dogma#Longitude)
 [Protobuf]      | message   | `dogma.Longitude`
 [Python]        | class     | `dogma.Longitude`
-[Ruby]          | class     | `Dogma::Longitude`
-[Rust]          | struct    | `dogma::Longitude`
+[Ruby]          | class     | [`Dogma::Longitude`](https://rubydoc.info/github/dogmatists/dogma.rb/master/Dogma/Longitude)
+[Rust]          | struct    | [`dogma::Longitude`](https://docs.rs/dogma/latest/dogma/struct.Longitude.html)
 [Zig]           | struct    | `dogma.Longitude`
 
 ## Description

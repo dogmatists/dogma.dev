@@ -26,12 +26,12 @@ Language        | Type      | Symbol
 :---------------| :-------- | :-------------------------------------------------
 [C]             | struct    | `Location`
 [C++]           | struct    | `dogma::Location`
-[Dart]          | class     | `Location`
-[Go]            | struct    | `dogma.Location`
+[Dart]          | class     | [`Location`](https://pub.dev/documentation/dogma/latest/dogma/Location-class.html)
+[Go]            | struct    | [`dogma.Location`](https://godoc.org/github.com/dogmatists/dogma.go/dogma#Location)
 [Protobuf]      | message   | `dogma.Location`
 [Python]        | class     | `dogma.Location`
-[Ruby]          | class     | `Dogma::Location`
-[Rust]          | struct    | `dogma::Location`
+[Ruby]          | class     | [`Dogma::Location`](https://rubydoc.info/github/dogmatists/dogma.rb/master/Dogma/Location)
+[Rust]          | struct    | [`dogma::Location`](https://docs.rs/dogma/latest/dogma/struct.Location.html)
 [Zig]           | struct    | `dogma.Location`
 
 ## Description

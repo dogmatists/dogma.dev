@@ -24,12 +24,12 @@ Language        | Type      | Symbol
 :---------------| :-------- | :-------------------------------------------------
 [C]             | struct    | `Latitude`
 [C++]           | struct    | `dogma::Latitude`
-[Dart]          | class     | `Latitude`
-[Go]            | struct    | `dogma.Latitude`
+[Dart]          | class     | [`Latitude`](https://pub.dev/documentation/dogma/latest/dogma/Latitude-class.html)
+[Go]            | struct    | [`dogma.Latitude`](https://godoc.org/github.com/dogmatists/dogma.go/dogma#Latitude)
 [Protobuf]      | message   | `dogma.Latitude`
 [Python]        | class     | `dogma.Latitude`
-[Ruby]          | class     | `Dogma::Latitude`
-[Rust]          | struct    | `dogma::Latitude`
+[Ruby]          | class     | [`Dogma::Latitude`](https://rubydoc.info/github/dogmatists/dogma.rb/master/Dogma/Latitude)
+[Rust]          | struct    | [`dogma::Latitude`](https://docs.rs/dogma/latest/dogma/struct.Latitude.html)
 [Zig]           | struct    | `dogma.Latitude`
 
 ## Description
