@@ -34,6 +34,62 @@ Language        | Type      | Symbol
 
 ## Description
 
+## Import
+
+=== "C"
+
+    ```c
+    #include <dogma.h>  // for Longitude
+    ```
+
+=== "C++"
+
+    ```c++
+    #include <dogma.hpp>  // for Longitude
+
+    using dogma::Longitude;
+    ```
+
+=== "Dart"
+
+    ```dart
+    import 'package:dogma/dogma.dart' show Longitude;
+    ```
+
+=== "Go"
+
+    ```go
+    import "github.com/dogmatists/dogma.go/dogma"
+    ```
+
+=== "Python"
+
+    ```python
+    from dogma import Longitude
+    ```
+
+=== "Ruby"
+
+    ```ruby
+    require 'dogma'
+
+    include Dogma::Longitude
+    ```
+
+=== "Rust"
+
+    ```rust
+    extern crate dogma;
+
+    use dogma::Longitude;
+    ```
+
+=== "Zig"
+
+    ```zig
+    const Longitude = @import("dogma").Longitude;
+    ```
+
 ## Constants
 
 ### `MAX_DEGREES`

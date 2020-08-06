@@ -35,6 +35,62 @@ Language        | Type      | Symbol
 Angles are represented using [radians], but can be constructed from radians,
 [degrees], or [turns].
 
+## Import
+
+=== "C"
+
+    ```c
+    #include <dogma.h>  // for Angle
+    ```
+
+=== "C++"
+
+    ```c++
+    #include <dogma.hpp>  // for Angle
+
+    using dogma::Angle;
+    ```
+
+=== "Dart"
+
+    ```dart
+    import 'package:dogma/dogma.dart' show Angle;
+    ```
+
+=== "Go"
+
+    ```go
+    import "github.com/dogmatists/dogma.go/dogma"
+    ```
+
+=== "Python"
+
+    ```python
+    from dogma import Angle
+    ```
+
+=== "Ruby"
+
+    ```ruby
+    require 'dogma'
+
+    include Dogma::Angle
+    ```
+
+=== "Rust"
+
+    ```rust
+    extern crate dogma;
+
+    use dogma::Angle;
+    ```
+
+=== "Zig"
+
+    ```zig
+    const Angle = @import("dogma").Angle;
+    ```
+
 ## Constants
 
 ## Constructor

@@ -36,6 +36,62 @@ Language        | Type      | Symbol
 
 ## Description
 
+## Import
+
+=== "C"
+
+    ```c
+    #include <dogma.h>  // for Location
+    ```
+
+=== "C++"
+
+    ```c++
+    #include <dogma.hpp>  // for Location
+
+    using dogma::Location;
+    ```
+
+=== "Dart"
+
+    ```dart
+    import 'package:dogma/dogma.dart' show Location;
+    ```
+
+=== "Go"
+
+    ```go
+    import "github.com/dogmatists/dogma.go/dogma"
+    ```
+
+=== "Python"
+
+    ```python
+    from dogma import Location
+    ```
+
+=== "Ruby"
+
+    ```ruby
+    require 'dogma'
+
+    include Dogma::Location
+    ```
+
+=== "Rust"
+
+    ```rust
+    extern crate dogma;
+
+    use dogma::Location;
+    ```
+
+=== "Zig"
+
+    ```zig
+    const Location = @import("dogma").Location;
+    ```
+
 ## Constants
 
 ## Constructor
