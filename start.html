@@ -232,6 +232,11 @@
     </a>
 </li>
 <li class="md-nav__item">
+<a class="md-nav__link" href="java/index.html" title="Java">
+      Java
+    </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="protobuf/index.html" title="Protobuf">
       Protobuf
     </a>
@@ -371,6 +376,10 @@
 <td><code>import "github.com/dogmatists/dogma.go/dogma"</code></td>
 </tr>
 <tr>
+<td align="left"><a href="https://github.com/dogmatists/dogma.java">Java</a></td>
+<td><code>import dogma.*;</code></td>
+</tr>
+<tr>
 <td align="left"><a href="https://github.com/dogmatists/dogma.pb">Protobuf</a></td>
 <td><code>import "dogma.proto";</code></td>
 </tr>
@@ -393,7 +402,7 @@
 </tbody>
 </table>
 <h2 id="loading-the-library">Loading the library<a class="headerlink" href="#loading-the-library" title="Permanent link">¶</a></h2>
-<div class="tabbed-set" data-tabs="1:9"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio"><label for="__tabbed_1_1">C</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="1:10"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio"><label for="__tabbed_1_1">C</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="cp">#include</span> <span class="cpf">&lt;dogma.h&gt;</span><span class="cp"></span>
 </code></pre></div>
 </div>
@@ -409,29 +418,33 @@
 <div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="s">"github.com/dogmatists/dogma.go/dogma"</span>
 </code></pre></div>
 </div>
-<input id="__tabbed_1_5" name="__tabbed_1" type="radio"><label for="__tabbed_1_5">Protobuf</label><div class="tabbed-content">
+<input id="__tabbed_1_5" name="__tabbed_1" type="radio"><label for="__tabbed_1_5">Java</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">dogma.*</span><span class="p">;</span>
+</code></pre></div>
+</div>
+<input id="__tabbed_1_6" name="__tabbed_1" type="radio"><label for="__tabbed_1_6">Protobuf</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="k">import</span> <span class="s">"dogma.proto"</span><span class="p">;</span>
 </code></pre></div>
 </div>
-<input id="__tabbed_1_6" name="__tabbed_1" type="radio"><label for="__tabbed_1_6">Python</label><div class="tabbed-content">
+<input id="__tabbed_1_7" name="__tabbed_1" type="radio"/><label for="__tabbed_1_7">Python</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">dogma</span>
 </code></pre></div>
 </div>
-<input id="__tabbed_1_7" name="__tabbed_1" type="radio"/><label for="__tabbed_1_7">Ruby</label><div class="tabbed-content">
+<input id="__tabbed_1_8" name="__tabbed_1" type="radio"/><label for="__tabbed_1_8">Ruby</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="nb">require</span> <span class="s1">'dogma'</span>
 </code></pre></div>
 </div>
-<input id="__tabbed_1_8" name="__tabbed_1" type="radio"/><label for="__tabbed_1_8">Rust</label><div class="tabbed-content">
+<input id="__tabbed_1_9" name="__tabbed_1" type="radio"/><label for="__tabbed_1_9">Rust</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="k">extern</span><span class="w"> </span><span class="k">crate</span><span class="w"> </span><span class="n">dogma</span><span class="p">;</span><span class="w"></span>
 </code></pre></div>
 </div>
-<input id="__tabbed_1_9" name="__tabbed_1" type="radio"/><label for="__tabbed_1_9">Zig</label><div class="tabbed-content">
+<input id="__tabbed_1_10" name="__tabbed_1" type="radio"/><label for="__tabbed_1_10">Zig</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="kr">const</span><span class="w"> </span><span class="n">dogma</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">@import</span><span class="p">(</span><span class="s">"dogma"</span><span class="p">);</span><span class="w"></span>
 </code></pre></div>
 </div>
 </input></input></input></input></input></input></div>
 <h2 id="checking-the-library-version">Checking the library version<a class="headerlink" href="#checking-the-library-version" title="Permanent link">¶</a></h2>
-<div class="tabbed-set" data-tabs="2:8"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio"/><label for="__tabbed_2_1">C</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="2:9"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio"/><label for="__tabbed_2_1">C</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="n">printf</span><span class="p">(</span><span class="s">"Dogma for C %d.%d.%d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span>
     <span class="n">DOGMA_VERSION_MAJOR</span><span class="p">,</span> <span class="n">DOGMA_VERSION_MINOR</span><span class="p">,</span> <span class="n">DOGMA_VERSION_PATCH</span><span class="p">);</span>
 </code></pre></div>
@@ -449,19 +462,23 @@
 <div class="highlight"><pre><span></span><code><span class="c1">// TODO</span>
 </code></pre></div>
 </div>
-<input id="__tabbed_2_5" name="__tabbed_2" type="radio"/><label for="__tabbed_2_5">Python</label><div class="tabbed-content">
-<div class="highlight"><pre><span></span><code><span class="c1"># TODO</span>
-</code></pre></div>
-</div>
-<input id="__tabbed_2_6" name="__tabbed_2" type="radio"/><label for="__tabbed_2_6">Ruby</label><div class="tabbed-content">
-<div class="highlight"><pre><span></span><code><span class="c1"># TODO</span>
-</code></pre></div>
-</div>
-<input id="__tabbed_2_7" name="__tabbed_2" type="radio"/><label for="__tabbed_2_7">Rust</label><div class="tabbed-content">
+<input id="__tabbed_2_5" name="__tabbed_2" type="radio"/><label for="__tabbed_2_5">Java</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="c1">// TODO</span>
 </code></pre></div>
 </div>
-<input id="__tabbed_2_8" name="__tabbed_2" type="radio"/><label for="__tabbed_2_8">Zig</label><div class="tabbed-content">
+<input id="__tabbed_2_6" name="__tabbed_2" type="radio"/><label for="__tabbed_2_6">Python</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="c1"># TODO</span>
+</code></pre></div>
+</div>
+<input id="__tabbed_2_7" name="__tabbed_2" type="radio"/><label for="__tabbed_2_7">Ruby</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="c1"># TODO</span>
+</code></pre></div>
+</div>
+<input id="__tabbed_2_8" name="__tabbed_2" type="radio"/><label for="__tabbed_2_8">Rust</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="c1">// TODO</span>
+</code></pre></div>
+</div>
+<input id="__tabbed_2_9" name="__tabbed_2" type="radio"/><label for="__tabbed_2_9">Zig</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="c1">// TODO</span>
 </code></pre></div>
 </div>

@@ -1,0 +1,48 @@
+apply plugin: 'java'
+
+jar {
+  archiveBaseName = 'dogma'
+  archiveVersion  = rootProject.file('VERSION').text.trim()
+  manifest {}
+}
+
+java {
+  sourceCompatibility = JavaVersion.VERSION_1_8
+  targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+test {
+  useJUnitPlatform()
+}
+
+repositories {
+  mavenCentral()
+  google()
+}
+
+dependencies {
+  // See: https://developer.android.com/jetpack/androidx/releases/annotation
+  // See: https://mvnrepository.com/artifact/androidx.annotation/annotation
+  compileOnly 'androidx.annotation:annotation:1.1.0'
+
+  // See: https://github.com/FasterXML/jackson-annotations/releases
+  // See: https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-annotations
+  compileOnly 'com.fasterxml.jackson.core:jackson-annotations:2.11.2'
+
+  // See: https://github.com/google/gson/releases
+  // See: https://mvnrepository.com/artifact/com.google.code.gson/gson
+  compileOnly 'com.google.code.gson:gson:2.8.6'
+
+  // See: https://github.com/junit-team/junit5/releases
+  // See: https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
+  testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.2'
+  testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.6.2'
+
+  // See: https://github.com/FasterXML/jackson-databind/releases
+  // See: https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+  testImplementation 'com.fasterxml.jackson.core:jackson-databind:2.11.2'
+
+  // See: https://github.com/google/gson/releases
+  // See: https://mvnrepository.com/artifact/com.google.code.gson/gson
+  testImplementation 'com.google.code.gson:gson:2.8.6'
+}
