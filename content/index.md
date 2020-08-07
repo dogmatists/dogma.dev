@@ -48,6 +48,12 @@ GitHub][] and follow the author [on Twitter][] for project announcements.
     go get github.com/dogmatists/dogma.go/dogma
     ```
 
+=== "Java"
+
+    ```bash
+    # TODO
+    ```
+
 === "Protobuf"
 
     ```bash
@@ -104,6 +110,12 @@ For more detailed instructions, see the [Installation](install.md) chapter.
 
     ```go
     import "github.com/dogmatists/dogma.go/dogma"
+    ```
+
+=== "Java"
+
+    ```java
+    import dogma.*;
     ```
 
 === "Protobuf"

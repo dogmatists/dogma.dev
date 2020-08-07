@@ -12,6 +12,7 @@ Language        | Code
 [C++]           | `#include <dogma.hpp>`
 [Dart]          | `import 'package:dogma/dogma.dart';`
 [Go]            | `import "github.com/dogmatists/dogma.go/dogma"`
+[Java]          | `import dogma.*;`
 [Protobuf]      | `import "dogma.proto";`
 [Python]        | `import dogma`
 [Ruby]          | `require 'dogma'`
@@ -22,6 +23,7 @@ Language        | Code
 [C++]:      https://github.com/dogmatists/dogma.cpp
 [Dart]:     https://github.com/dogmatists/dogma.dart
 [Go]:       https://github.com/dogmatists/dogma.go
+[Java]:     https://github.com/dogmatists/dogma.java
 [Protobuf]: https://github.com/dogmatists/dogma.pb
 [Python]:   https://github.com/dogmatists/dogma.py
 [Ruby]:     https://github.com/dogmatists/dogma.rb
@@ -52,6 +54,12 @@ Language        | Code
 
     ```go
     import "github.com/dogmatists/dogma.go/dogma"
+    ```
+
+=== "Java"
+
+    ```java
+    import dogma.*;
     ```
 
 === "Protobuf"
@@ -109,6 +117,12 @@ Language        | Code
 === "Go"
 
     ```go
+    // TODO
+    ```
+
+=== "Java"
+
+    ```java
     // TODO
     ```
 

@@ -28,6 +28,7 @@ Language        | Type      | Symbol
 [C++]           | struct    | `dogma::Location`
 [Dart]          | class     | [`Location`](https://pub.dev/documentation/dogma/latest/dogma/Location-class.html)
 [Go]            | struct    | [`dogma.Location`](https://godoc.org/github.com/dogmatists/dogma.go/dogma#Location)
+[Java]          | interface | `dogma.Location`
 [Protobuf]      | message   | `dogma.Location`
 [Python]        | class     | `dogma.Location`
 [Ruby]          | class     | [`Dogma::Location`](https://rubydoc.info/github/dogmatists/dogma.rb/master/Dogma/Location)
@@ -62,6 +63,12 @@ Language        | Type      | Symbol
 
     ```go
     import "github.com/dogmatists/dogma.go/dogma"
+    ```
+
+=== "Java"
+
+    ```java
+    import dogma.Location;
     ```
 
 === "Python"
@@ -118,6 +125,12 @@ Language        | Type      | Symbol
 
     ```go
     NewLocation(27.9881, 86.9250)
+    ```
+
+=== "Java"
+
+    ```java
+    Location.of(27.9881, 86.9250)
     ```
 
 === "Python"
@@ -254,6 +267,7 @@ Language        | Type      | Symbol
 [C++]:      https://github.com/dogmatists/dogma.cpp/blob/master/dogma/location.hpp
 [Dart]:     https://github.com/dogmatists/dogma.dart/blob/master/lib/src/location.dart
 [Go]:       https://github.com/dogmatists/dogma.go/blob/master/dogma/location.go
+[Java]:     https://github.com/dogmatists/dogma.java/blob/master/src/main/java/dogma/Location.java
 [Protobuf]: https://github.com/dogmatists/dogma.pb/blob/master/src/location.proto
 [Python]:   https://github.com/dogmatists/dogma.py/blob/master/src/dogma/location.py
 [Ruby]:     https://github.com/dogmatists/dogma.rb/blob/master/lib/dogma/location.rb
