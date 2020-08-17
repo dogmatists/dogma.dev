@@ -1,0 +1,33 @@
+{
+  "name": "dogma.js",
+  "version": "0.0.0",
+  "description": "Dogma for JavaScript.",
+  "type": "module",
+  "module": "dogma.js",
+  "types": "dogma.d.ts",
+  "files": [
+    "AUTHORS",
+    "CHANGES.md",
+    "CREDITS.md",
+    "README",
+    "README.md",
+    "UNLICENSE",
+    "VERSION",
+    "package.json",
+    "dogma.js",
+    "dogma.d.ts"
+  ],
+  "scripts": {
+    "test": "make check"
+  },
+  "keywords": [
+    "dogma",
+    "math"
+  ],
+  "author": "Arto Bendiken <arto@bendiken.net> (https://ar.to)",
+  "license": "Unlicense",
+  "homepage": "https://dogma.dev/js/",
+  "bugs": "https://github.com/dogmatists/dogma.js/issues",
+  "repository": "https://github.com/dogmatists/dogma.js.git",
+  "devDependencies": {}
+}

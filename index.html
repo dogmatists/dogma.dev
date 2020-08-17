@@ -14,7 +14,7 @@
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&amp;display=fallback" rel="stylesheet"/>
 <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
-<link href="css/extra.css" rel="stylesheet"/>
+<link href="_css/extra.css" rel="stylesheet"/>
 <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-83574-22","auto"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})}),document.addEventListener("DOMContentSwitch",function(){ga("send","pageview")})</script>
 <script async="" src="https://www.google-analytics.com/analytics.js"></script>
 </head>
@@ -227,6 +227,11 @@
     </a>
 </li>
 <li class="md-nav__item">
+<a class="md-nav__link" href="js/index.html" title="JS">
+      JS
+    </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="protobuf/index.html" title="Protobuf">
       Protobuf
     </a>
@@ -342,7 +347,7 @@ It is unlikely to be particularly useful as yet to anyone but its authors.</p>
 <p>If you are interested in the project, you can keep tabs on development <a href="https://github.com/artob">at
 GitHub</a> and follow the author <a href="https://twitter.com/bendiken">on Twitter</a> for project announcements.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">¶</a></h2>
-<div class="tabbed-set" data-tabs="1:10"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio"><label for="__tabbed_1_1">C</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="1:11"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio"><label for="__tabbed_1_1">C</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>git clone https://github.com/dogmatists/dogma.c.git
 </code></pre></div>
 </div>
@@ -363,30 +368,34 @@ GitHub</a> and follow the author <a href="https://twitter.com/bendiken">on Twitt
 <div class="highlight"><pre><span></span><code><span class="c1"># TODO</span>
 </code></pre></div>
 </div>
-<input id="__tabbed_1_6" name="__tabbed_1" type="radio"><label for="__tabbed_1_6">Protobuf</label><div class="tabbed-content">
+<input id="__tabbed_1_6" name="__tabbed_1" type="radio"><label for="__tabbed_1_6">JS</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code>npm install dogma.js
+</code></pre></div>
+</div>
+<input id="__tabbed_1_7" name="__tabbed_1" type="radio"/><label for="__tabbed_1_7">Protobuf</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>git clone https://github.com/dogmatists/dogma.pb.git
 </code></pre></div>
 </div>
-<input id="__tabbed_1_7" name="__tabbed_1" type="radio"/><label for="__tabbed_1_7">Python</label><div class="tabbed-content">
+<input id="__tabbed_1_8" name="__tabbed_1" type="radio"/><label for="__tabbed_1_8">Python</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>pip3 install dogma.py
 </code></pre></div>
 </div>
-<input id="__tabbed_1_8" name="__tabbed_1" type="radio"/><label for="__tabbed_1_8">Ruby</label><div class="tabbed-content">
+<input id="__tabbed_1_9" name="__tabbed_1" type="radio"/><label for="__tabbed_1_9">Ruby</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>gem install dogma.rb
 </code></pre></div>
 </div>
-<input id="__tabbed_1_9" name="__tabbed_1" type="radio"/><label for="__tabbed_1_9">Rust</label><div class="tabbed-content">
+<input id="__tabbed_1_10" name="__tabbed_1" type="radio"/><label for="__tabbed_1_10">Rust</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="n">cargo</span><span class="w"> </span><span class="n">install</span><span class="w"> </span><span class="n">dogma</span><span class="w"></span>
 </code></pre></div>
 </div>
-<input id="__tabbed_1_10" name="__tabbed_1" type="radio"/><label for="__tabbed_1_10">Zig</label><div class="tabbed-content">
+<input id="__tabbed_1_11" name="__tabbed_1" type="radio"/><label for="__tabbed_1_11">Zig</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>git clone https://github.com/dogmatists/dogma.zig.git
 </code></pre></div>
 </div>
 </input></input></input></input></input></input></div>
 <p>For more detailed instructions, see the <a href="install.html">Installation</a> chapter.</p>
 <h2 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link">¶</a></h2>
-<div class="tabbed-set" data-tabs="2:10"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio"/><label for="__tabbed_2_1">C</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="2:11"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio"/><label for="__tabbed_2_1">C</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="cp">#include</span> <span class="cpf">&lt;dogma.h&gt;</span><span class="cp"></span>
 </code></pre></div>
 </div>
@@ -406,23 +415,27 @@ GitHub</a> and follow the author <a href="https://twitter.com/bendiken">on Twitt
 <div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">dogma.*</span><span class="p">;</span>
 </code></pre></div>
 </div>
-<input id="__tabbed_2_6" name="__tabbed_2" type="radio"/><label for="__tabbed_2_6">Protobuf</label><div class="tabbed-content">
+<input id="__tabbed_2_6" name="__tabbed_2" type="radio"/><label for="__tabbed_2_6">JS</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="kr">import</span> <span class="o">*</span> <span class="kr">as</span> <span class="nx">dogma</span> <span class="nx">from</span> <span class="s2">"./dogma.js"</span><span class="p">;</span>
+</code></pre></div>
+</div>
+<input id="__tabbed_2_7" name="__tabbed_2" type="radio"/><label for="__tabbed_2_7">Protobuf</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="k">import</span> <span class="s">"dogma.proto"</span><span class="p">;</span>
 </code></pre></div>
 </div>
-<input id="__tabbed_2_7" name="__tabbed_2" type="radio"/><label for="__tabbed_2_7">Python</label><div class="tabbed-content">
+<input id="__tabbed_2_8" name="__tabbed_2" type="radio"/><label for="__tabbed_2_8">Python</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">dogma</span>
 </code></pre></div>
 </div>
-<input id="__tabbed_2_8" name="__tabbed_2" type="radio"/><label for="__tabbed_2_8">Ruby</label><div class="tabbed-content">
+<input id="__tabbed_2_9" name="__tabbed_2" type="radio"/><label for="__tabbed_2_9">Ruby</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="nb">require</span> <span class="s1">'dogma'</span>
 </code></pre></div>
 </div>
-<input id="__tabbed_2_9" name="__tabbed_2" type="radio"/><label for="__tabbed_2_9">Rust</label><div class="tabbed-content">
+<input id="__tabbed_2_10" name="__tabbed_2" type="radio"/><label for="__tabbed_2_10">Rust</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="k">extern</span><span class="w"> </span><span class="k">crate</span><span class="w"> </span><span class="n">dogma</span><span class="p">;</span><span class="w"></span>
 </code></pre></div>
 </div>
-<input id="__tabbed_2_10" name="__tabbed_2" type="radio"/><label for="__tabbed_2_10">Zig</label><div class="tabbed-content">
+<input id="__tabbed_2_11" name="__tabbed_2" type="radio"/><label for="__tabbed_2_11">Zig</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="kr">const</span><span class="w"> </span><span class="n">dogma</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">@import</span><span class="p">(</span><span class="s">"dogma"</span><span class="p">);</span><span class="w"></span>
 </code></pre></div>
 </div>
@@ -492,6 +505,6 @@ GitHub</a> and follow the author <a href="https://twitter.com/bendiken">on Twitt
         })
       </script>
 <script src="https://unpkg.com/mermaid@8.5.2/dist/mermaid.min.js"></script>
-<script src="js/extra.js"></script>
+<script src="_js/extra.js"></script>
 </body>
 </html>

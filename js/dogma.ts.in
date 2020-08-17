@@ -1,0 +1,6 @@
+/* This is free and unencumbered software released into the public domain. */
+
+/// <reference path="src/angle.ts"/>
+/// <reference path="src/latitude.ts"/>
+/// <reference path="src/longitude.ts"/>
+/// <reference path="src/location.ts"/>
