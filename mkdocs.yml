@@ -85,12 +85,12 @@ plugins:
 
 # Custom CSS configuration:
 extra_css:
-  - css/extra.css
+  - _css/extra.css
 
 # Custom JS configuration:
 extra_javascript:
   - https://unpkg.com/mermaid@8.5.2/dist/mermaid.min.js  # Mermaid plugin
-  - js/extra.js
+  - _js/extra.js
 
 # Footer configuration:
 extra:
