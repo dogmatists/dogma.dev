@@ -54,6 +54,12 @@ GitHub][] and follow the author [on Twitter][] for project announcements.
     # TODO
     ```
 
+=== "JS"
+
+    ```bash
+    npm install dogma.js
+    ```
+
 === "Protobuf"
 
     ```bash
@@ -116,6 +122,12 @@ For more detailed instructions, see the [Installation](install.md) chapter.
 
     ```java
     import dogma.*;
+    ```
+
+=== "JS"
+
+    ```typescript
+    import * as dogma from "./dogma.js";
     ```
 
 === "Protobuf"

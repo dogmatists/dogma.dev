@@ -13,6 +13,7 @@ Language        | Command
 [Dart]          | `dependencies:↵  dogma: ^0.0.0`
 [Go]            | `go get github.com/dogmatists/dogma.go/dogma`
 [Java]          | `# TODO`
+[JS]            | `npm install dogma.js`
 [Protobuf]      | `git clone https://github.com/dogmatists/dogma.pb.git`
 [Python]        | `pip3 install dogma.py`
 [Ruby]          | `gem install dogma.rb`
@@ -24,6 +25,7 @@ Language        | Command
 [Dart]:     https://github.com/dogmatists/dogma.dart
 [Go]:       https://github.com/dogmatists/dogma.go
 [Java]:     https://github.com/dogmatists/dogma.java
+[JS]:       https://github.com/dogmatists/dogma.js
 [Protobuf]: https://github.com/dogmatists/dogma.pb
 [Python]:   https://github.com/dogmatists/dogma.py
 [Ruby]:     https://github.com/dogmatists/dogma.rb
@@ -60,6 +62,12 @@ Language        | Command
 
     ```bash
     git clone https://github.com/dogmatists/dogma.java.git
+    ```
+
+=== "JS"
+
+    ```bash
+    git clone https://github.com/dogmatists/dogma.js.git
     ```
 
 === "Protobuf"

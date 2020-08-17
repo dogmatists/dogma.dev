@@ -25,6 +25,7 @@ Language        | Type      | Symbol
 [Dart]          | class     | [`Angle`](https://pub.dev/documentation/dogma/latest/dogma/Angle-class.html)
 [Go]            | struct    | [`dogma.Angle`](https://godoc.org/github.com/dogmatists/dogma.go/dogma#Angle)
 [Java]          | interface | `dogma.Angle`
+[JS]            | class     | `dogma.Angle`
 [Protobuf]      | message   | `dogma.Angle`
 [Python]        | class     | `dogma.Angle`
 [Ruby]          | class     | [`Dogma::Angle`](https://rubydoc.info/github/dogmatists/dogma.rb/master/Dogma/Angle)
@@ -68,6 +69,12 @@ Angles are represented using [radians], but can be constructed from radians,
 
     ```java
     import dogma.Angle;
+    ```
+
+=== "JS"
+
+    ```typescript
+    import {Angle} from "./dogma.js";
     ```
 
 === "Python"
@@ -134,6 +141,12 @@ Angles are represented using [radians], but can be constructed from radians,
     Angle.fromDegrees(180)
     ```
 
+=== "JS"
+
+    ```typescript
+    Angle.fromDegrees(180)
+    ```
+
 === "Python"
 
     ```python
@@ -190,6 +203,12 @@ Angles are represented using [radians], but can be constructed from radians,
     Angle.fromRadians(Math.PI)
     ```
 
+=== "JS"
+
+    ```typescript
+    Angle.fromRadians(Math.PI)
+    ```
+
 === "Python"
 
     ```python
@@ -243,6 +262,12 @@ Angles are represented using [radians], but can be constructed from radians,
 === "Java"
 
     ```java
+    Angle.fromTurns(0.5)
+    ```
+
+=== "JS"
+
+    ```typescript
     Angle.fromTurns(0.5)
     ```
 
@@ -304,6 +329,12 @@ Angles are represented using [radians], but can be constructed from radians,
     angle.getDegrees()
     ```
 
+=== "JS"
+
+    ```typescript
+    angle.degrees
+    ```
+
 === "Python"
 
     ```python
@@ -360,6 +391,12 @@ Angles are represented using [radians], but can be constructed from radians,
     angle.getRadians()
     ```
 
+=== "JS"
+
+    ```typescript
+    angle.radians
+    ```
+
 === "Python"
 
     ```python
@@ -414,6 +451,12 @@ Angles are represented using [radians], but can be constructed from radians,
 
     ```java
     angle.getTurns()
+    ```
+
+=== "JS"
+
+    ```typescript
+    angle.turns
     ```
 
 === "Python"
@@ -535,6 +578,7 @@ Angles are represented using [radians], but can be constructed from radians,
 [Dart]:     https://github.com/dogmatists/dogma.dart/blob/master/lib/src/angle.dart
 [Go]:       https://github.com/dogmatists/dogma.go/blob/master/dogma/angle.go
 [Java]:     https://github.com/dogmatists/dogma.java/blob/master/src/main/java/dogma/Angle.java
+[JS]:       https://github.com/dogmatists/dogma.js/blob/master/src/angle.ts
 [Protobuf]: https://github.com/dogmatists/dogma.pb/blob/master/src/angle.proto
 [Python]:   https://github.com/dogmatists/dogma.py/blob/master/src/dogma/angle.py
 [Ruby]:     https://github.com/dogmatists/dogma.rb/blob/master/lib/dogma/angle.rb

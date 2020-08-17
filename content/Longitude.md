@@ -27,6 +27,7 @@ Language        | Type      | Symbol
 [Dart]          | class     | [`Longitude`](https://pub.dev/documentation/dogma/latest/dogma/Longitude-class.html)
 [Go]            | struct    | [`dogma.Longitude`](https://godoc.org/github.com/dogmatists/dogma.go/dogma#Longitude)
 [Java]          | interface | `dogma.Longitude`
+[JS]            | class     | `dogma.Longitude`
 [Protobuf]      | message   | `dogma.Longitude`
 [Python]        | class     | `dogma.Longitude`
 [Ruby]          | class     | [`Dogma::Longitude`](https://rubydoc.info/github/dogmatists/dogma.rb/master/Dogma/Longitude)
@@ -67,6 +68,12 @@ Language        | Type      | Symbol
 
     ```java
     import dogma.Longitude;
+    ```
+
+=== "JS"
+
+    ```typescript
+    import {Longitude} from "./dogma.js";
     ```
 
 === "Python"
@@ -131,6 +138,12 @@ Language        | Type      | Symbol
     Longitude.MAX_DEGREES  // 180
     ```
 
+=== "JS"
+
+    ```typescript
+    Longitude.MAX_DEGREES  // 180
+    ```
+
 === "Python"
 
     ```python
@@ -184,6 +197,12 @@ Language        | Type      | Symbol
 === "Java"
 
     ```java
+    Longitude.MIN_DEGREES  // -180
+    ```
+
+=== "JS"
+
+    ```typescript
     Longitude.MIN_DEGREES  // -180
     ```
 
@@ -241,6 +260,12 @@ Language        | Type      | Symbol
 
     ```java
     Longitude.of(86.9250)
+    ```
+
+=== "JS"
+
+    ```typescript
+    new Longitude(86.9250)
     ```
 
 === "Python"
@@ -374,6 +399,7 @@ Language        | Type      | Symbol
 [Dart]:     https://github.com/dogmatists/dogma.dart/blob/master/lib/src/longitude.dart
 [Go]:       https://github.com/dogmatists/dogma.go/blob/master/dogma/longitude.go
 [Java]:     https://github.com/dogmatists/dogma.java/blob/master/src/main/java/dogma/Longitude.java
+[JS]:       https://github.com/dogmatists/dogma.js/blob/master/src/longitude.ts
 [Protobuf]: https://github.com/dogmatists/dogma.pb/blob/master/src/longitude.proto
 [Python]:   https://github.com/dogmatists/dogma.py/blob/master/src/dogma/longitude.py
 [Ruby]:     https://github.com/dogmatists/dogma.rb/blob/master/lib/dogma/longitude.rb

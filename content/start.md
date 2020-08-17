@@ -13,6 +13,7 @@ Language        | Code
 [Dart]          | `import 'package:dogma/dogma.dart';`
 [Go]            | `import "github.com/dogmatists/dogma.go/dogma"`
 [Java]          | `import dogma.*;`
+[JS]            | `import * as dogma from "./dogma.js";`
 [Protobuf]      | `import "dogma.proto";`
 [Python]        | `import dogma`
 [Ruby]          | `require 'dogma'`
@@ -24,6 +25,7 @@ Language        | Code
 [Dart]:     https://github.com/dogmatists/dogma.dart
 [Go]:       https://github.com/dogmatists/dogma.go
 [Java]:     https://github.com/dogmatists/dogma.java
+[JS]:       https://github.com/dogmatists/dogma.js
 [Protobuf]: https://github.com/dogmatists/dogma.pb
 [Python]:   https://github.com/dogmatists/dogma.py
 [Ruby]:     https://github.com/dogmatists/dogma.rb
@@ -60,6 +62,12 @@ Language        | Code
 
     ```java
     import dogma.*;
+    ```
+
+=== "JS"
+
+    ```typescript
+    import * as dogma from "./dogma.js";
     ```
 
 === "Protobuf"
@@ -123,6 +131,12 @@ Language        | Code
 === "Java"
 
     ```java
+    // TODO
+    ```
+
+=== "JS"
+
+    ```typescript
     // TODO
     ```
 

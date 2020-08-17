@@ -13,6 +13,9 @@
 [submodule "content/java"]
 	path = content/java
 	url = https://github.com/dogmatists/dogma.java.git
+[submodule "content/js"]
+	path = content/js
+	url = https://github.com/dogmatists/dogma.js.git
 [submodule "content/protobuf"]
 	path = content/protobuf
 	url = https://github.com/dogmatists/dogma.pb.git

@@ -27,6 +27,7 @@ Language        | Type      | Symbol
 [Dart]          | class     | [`Latitude`](https://pub.dev/documentation/dogma/latest/dogma/Latitude-class.html)
 [Go]            | struct    | [`dogma.Latitude`](https://godoc.org/github.com/dogmatists/dogma.go/dogma#Latitude)
 [Java]          | interface | `dogma.Latitude`
+[JS]            | class     | `dogma.Latitude`
 [Protobuf]      | message   | `dogma.Latitude`
 [Python]        | class     | `dogma.Latitude`
 [Ruby]          | class     | [`Dogma::Latitude`](https://rubydoc.info/github/dogmatists/dogma.rb/master/Dogma/Latitude)
@@ -67,6 +68,12 @@ Language        | Type      | Symbol
 
     ```java
     import dogma.Latitude;
+    ```
+
+=== "JS"
+
+    ```typescript
+    import {Latitude} from "./dogma.js";
     ```
 
 === "Python"
@@ -131,6 +138,12 @@ Language        | Type      | Symbol
     Latitude.MAX_DEGREES  // 90
     ```
 
+=== "JS"
+
+    ```typescript
+    Latitude.MAX_DEGREES  // 90
+    ```
+
 === "Python"
 
     ```python
@@ -184,6 +197,12 @@ Language        | Type      | Symbol
 === "Java"
 
     ```java
+    Latitude.MIN_DEGREES  // -90
+    ```
+
+=== "JS"
+
+    ```typescript
     Latitude.MIN_DEGREES  // -90
     ```
 
@@ -241,6 +260,12 @@ Language        | Type      | Symbol
 
     ```java
     Latitude.of(27.9881)
+    ```
+
+=== "JS"
+
+    ```typescript
+    new Latitude(27.9881)
     ```
 
 === "Python"
@@ -374,6 +399,7 @@ Language        | Type      | Symbol
 [Dart]:     https://github.com/dogmatists/dogma.dart/blob/master/lib/src/latitude.dart
 [Go]:       https://github.com/dogmatists/dogma.go/blob/master/dogma/latitude.go
 [Java]:     https://github.com/dogmatists/dogma.java/blob/master/src/main/java/dogma/Latitude.java
+[JS]:       https://github.com/dogmatists/dogma.js/blob/master/src/latitude.ts
 [Protobuf]: https://github.com/dogmatists/dogma.pb/blob/master/src/latitude.proto
 [Python]:   https://github.com/dogmatists/dogma.py/blob/master/src/dogma/latitude.py
 [Ruby]:     https://github.com/dogmatists/dogma.rb/blob/master/lib/dogma/latitude.rb
